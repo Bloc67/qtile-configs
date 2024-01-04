@@ -186,50 +186,6 @@ groups = []
 
 # groups with special jobs. I usually navigate to these via my app_or_group
 # function.
-groups.extend([
-    Group('AUDIO', spawn=['pavucontrol','easyeffects'], layout='columns', 
-        persist=True,
-        init=True,
-        exclusive=False,
-        matches=[Match(wm_class=['EasyEffects', 'pavucontrol','easyeffects'])]
-    ),
-    Group('EMBY', spawn='emby-theater', layout='max', 
-        persist=True,
-        init=True,
-        exclusive=False,
-        matches=[Match(wm_class=['emby-theater'])]
-    ),
-    Group('MUSIC', spawn=['quodlibet', 'kitty --hold pyradio'], layout='matrix', 
-        persist=True,
-        init=True,
-        exclusive=False,
-        matches=[Match(wm_class=['quodlibet','kitty'])]
-    ),
-    Group('WWW', spawn='brave', layout='tile',  
-        persist=True,
-        init=True,
-        exclusive=False,
-        matches=[Match(wm_class=['Brave','brave'])]
-    ),
-    Group('CODE', spawn='/usr/bin/code-oss --unity-launch %F', layout='columns',  
-        persist=True,
-        init=True,
-        exclusive=False,
-        matches=[Match(wm_class=['code-oss'])]
-    ),
-    Group('QBIT', spawn='qbittorrent', layout='coulmns',  
-        persist=True,
-        init=True,
-        exclusive=False,
-        matches=[Match(wm_class=['qbittorrent'])]
-    )
-])
-keys.append(Key([mod], 'a', lazy.group['AUDIO'].toscreen()))
-keys.append(Key([mod], 'm', lazy.group['MUSIC'].toscreen()))
-keys.append(Key([mod], 'b', lazy.group['WWW'].toscreen()))
-keys.append(Key([mod], 'c', lazy.group['CODE'].toscreen()))
-
-
 for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
     groups.append(Group(i, layout='columns'))
     keys.append(
@@ -240,15 +196,6 @@ for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
     )
 
 
-
-# Append scratchpad with dropdowns to groups
-groups.append(ScratchPad('scratchpad', [
-    DropDown('gedit', 'gedit /home/bloc67/.config/qtile/config.py', width=0.8, height=0.95, x=0.1, y=0.01, opacity=1),
-]))
-# extend keys list with keybinding for scratchpad
-keys.extend([
-    Key([mod], "x", lazy.group['scratchpad'].dropdown_toggle('gedit')),
-])
 
 layouts = [
     layout.Columns(border_focus_stack=["#000000", "#003533"], border_width=1),
@@ -282,57 +229,13 @@ screens = [
             [
                 widget.Spacer(length=10),
                 widget.CurrentLayout(),
-                #widget.Prompt(),
                 widget.Spacer(length=10),
-                #widget.Wttr(location={'Molde': 'Molde'}, units="M", markup='true', lang='nb', foreground="#909090", format="%l: <span color='#80f080'>%C</span> <span color='#f0d000'>%t</span> %p</span>",
-				#	mouse_callbacks={'Button1': lazy.spawn(wttrfull)}),
-                widget.Wttr(location={'Molde': 'Molde'}, units="M", markup='true', lang='nb', foreground="#909090", format="%l: <span color='#80f080'>%C</span> <span color='#f0d000'>%t</span> %p ↑<span color='#80f080'>%S</span> ↓<span color='#8080f0'>%s</span>"),
-                widget.Spacer(length=10),
-
-				#widget.TextBox("MPV", foreground="#57dfdf", mouse_callbacks={'Button1': lazy.spawn(mpv_command)},),
-				#widget.TextBox("BT", foreground="#577fdf", mouse_callbacks={'Button1': lazy.spawn(bt_command)},),
-                widget.TextBox("[SET]", foreground="#8080a0", mouse_callbacks={'Button1': lazy.spawn(setcmd)},),
-                #widget.TextBox("SERV", foreground="#80a080", mouse_callbacks={'Button1': lazy.spawn(mountservers)},),
-                #widget.WindowName(), 
- 
                 widget.TextBox("[RESTART]", foreground="#f75f5f", mouse_callbacks={'Button1': lazy.spawn('reboot')},),
-                widget.TextBox("[CRON]", foreground="#8080a0", mouse_callbacks={'Button1': lazy.spawn(alljobs)},),
-                widget.TextBox("[SPACE]", foreground="#8080a0", mouse_callbacks={'Button1': lazy.spawn(space)},),
-				#widget.TextBox("STREAMWr", foreground="#57df7f", mouse_callbacks={'Button1': lazy.spawn(streamwr)},),
-                #widget.Spacer(length=10),
-                #widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/5.svg", margin_y=8, mouse_callbacks={'Button1': lazy.spawn(quodlibet5)},),
-                #widget.Spacer(length=4),
-                #widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/2.svg", margin_y=8, mouse_callbacks={'Button1': lazy.spawn(quodlibet6)},),
-                widget.Spacer(length=10),
-                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/play-circle.svg", margin_y=8, mouse_callbacks={'Button1': lazy.spawn(quodlibet1)},),
-                widget.Spacer(length=4),
-                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/skip-forward.svg", margin_y=7, mouse_callbacks={'Button1': lazy.spawn(quodlibet2)},),
-                widget.Spacer(length=6),
-                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/rewind.svg", margin_y=7, rotate="180", mouse_callbacks={'Button1': lazy.spawn(quodlibet4)},),
-        		widget.Spacer(length=10),
-                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/volume-2.svg", margin_y=7, mouse_callbacks={'Button1': lazy.spawn(quodlibet7)},),
-                widget.Spacer(length=10),
-                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/volume.svg", margin_y=7, mouse_callbacks={'Button1': lazy.spawn(quodlibet8)},),
-                widget.Spacer(length=4),
-                widget.DF(partition='/', visible_on_warn=False),
-                widget.Spacer(length=4),
                 widget.CPU(format="CPU {load_percent}%", mouse_callbacks={'Button1': lazy.spawn(bashtop)},),                
                 widget.Spacer(length=10),
                 widget.Memory(measure_mem='G', mouse_callbacks={'Button1': lazy.spawn(bashtop)}),                
-                widget.ThermalSensor(tag_sensor='Package id 0'),                
-                
-                widget.ThermalZone(
-                    tag_sensor='temp1',
-                    fgcolor_normal="#0088ff",
-                    mouse_callbacks={'Button1': lazy.spawn(bashtop)},
-                ),                
-   
-                widget.Spacer(),
                 widget.Systray(padding=2, size=32),
                 widget.Spacer(length=10),
-                # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
-                # widget.StatusNotifier(),
-                #widget.QuickExit(),
             ],
             32,
             background='#182030',
@@ -355,8 +258,6 @@ screens = [
                     max_title_width=200,
                     mouse_callbacks={'Button3': lazy.window.kill()}
                 ),
-                widget.TextBox("<b>PC</b>", foreground="#d75f5f", mouse_callbacks={'Button1': lazy.spawn(stereo_command)},),
-                widget.TextBox("<b>TV</b> ", foreground="#67bfbf", mouse_callbacks={'Button1': lazy.spawn(hdmi_command)},),
                 widget.Clock(format="<span color='#888888'>%d-%m-%Y %a</span> <b>%H:%M</b>"),
                 widget.Spacer(length=10),
             ],

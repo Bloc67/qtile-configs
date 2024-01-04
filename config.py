@@ -231,7 +231,7 @@ screens = [
                 widget.CurrentLayout(),
                 widget.TextBox(" | ", foreground="#888888"),
                 widget.TextBox("[RESTART]", foreground="#f75f5f", mouse_callbacks={'Button1': lazy.spawn('reboot')},),
-                widget.TextBox(" | ", foreground="#888888"),
+                widget.Spacer(),
                 widget.CPU(format="cpu {load_percent}%", mouse_callbacks={'Button1': lazy.spawn(bashtop)},),                
                 widget.TextBox(" | ", foreground="#888888"),
                 widget.Memory(measure_mem='G', mouse_callbacks={'Button1': lazy.spawn(bashtop)}),                

@@ -229,7 +229,7 @@ screens = [
             [
                 widget.Spacer(length=10),
                 widget.CurrentLayout(),
-                widget.Spacer(length=10),
+                widget.TextBox(" | ", foreground="#888888"),
                 widget.TextBox("[RESTART]", foreground="#f75f5f", mouse_callbacks={'Button1': lazy.spawn('reboot')},),
                 widget.TextBox(" | ", foreground="#888888"),
                 widget.CPU(format="cpu {load_percent}%", mouse_callbacks={'Button1': lazy.spawn(bashtop)},),                
@@ -238,7 +238,6 @@ screens = [
                 widget.TextBox(" | ", foreground="#888888"),
                 widget.Net(foreground="#88ffaa"),
                 widget.Systray(padding=2, size=32),
-                widget.Spacer(length=10),
             ],
             32,
             background='#182030',
@@ -249,7 +248,7 @@ screens = [
                 widget.Spacer(length=10),
                 widget.GroupBox(),
                 widget.Prompt(),
-                widget.Spacer(length=10),
+                widget.TextBox(" | ", foreground="#888888"),
                 widget.TextBox("<b>X</b>", foreground="#d78f5f", mouse_callbacks={'Button1': lazy.window.kill()},),
                 #widget.WindowTabs(),
                 widget.TaskList(

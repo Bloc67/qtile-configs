@@ -2,5 +2,5 @@
 echo "normal programs: qtile terminator micro syncthing syncthing-gtk audacious easyeffects"
 pacman -S qtile terminator micro syncthing syncthing-gtk audacious easyeffects
 
-echo "extra programs: bashtop lxappearance"
-pacman -S bashtop lxappearance
+echo "extra programs: bashtop lxappearance rofi"
+pacman -S bashtop lxappearance rofi

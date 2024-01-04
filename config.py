@@ -42,13 +42,54 @@ def autostart():
 mod = "mod4"
 terminal = "terminator"
 rofi = "rofi -show drun"
+mpv_command = "/home/bloc67/.config/qtile/mpv.sh"
+quodlibet1 = "quodlibet --play-pause"
+quodlibet2 = "quodlibet --next"
+quodlibet3 = "quodlibet --rew"
+
+quodlibet4 = "quodlibet --seek=+70"
+quodlibet5 = "quodlibet --rating=1.0"
+quodlibet6 = "quodlibet --rating=0.2"
+quodlibet7 = "quodlibet --volume=100"
+quodlibet8 = "quodlibet --volume=75"
+
 
 bashtop = "tilix -e bashtop"
+jrnl = "tilix -e /home/bloc67/.config/qtile/jrnl.sh"
+jrnl_jobb = "tilix -e /home/bloc67/.config/qtile/jrnl_jobb.sh"
+setcmd = "tilix -e bash /home/bloc67/scripts/setfolders.sh"
+space = "screen -t bash /home/bloc67/scripts/space.sh"
+
+wttrfull = "tilix -e curl wttr.in/Molde"
+
+mountservers = "tilix -e bash /home/bloc67/.config/qtile/setmounts.sh" 
+runscripts = "/home/bloc67/.config/qtile/scripts.sh"
+
+stereo_command = "/home/bloc67/.config/qtile/do_stereo.sh"
+hdmi_command = "/home/bloc67/.config/qtile/do_hdmi.sh"
+bt_command = "blueman-manager"
+molde = "sunwait list 1 62.737709N 7.160910E"
+
+mount_virtbox = "terminator -e /home/bloc67/scripts/mount_virtbox.sh"
+mount_linode = "terminator -e /home/bloc67/scripts/mount_linode.sh"
+
+alljobs = "tilix -e scripts/crontab_23072023_run.sh"
 
 rofi2 = '/home/bloc67/.config/awesome/rofi-master/1080p/launchers/text/launcher.sh'
 rofi3 = 'env /usr/bin/rofi -show drun -theme /home/bloc67/.config/awesome/nord.rasi'
 rofi4 = 'env /usr/bin/rofi -normal-window -width 400 -show drun -theme /home/bloc67/.config/awesome/configuration/rofi.rasi -run-command "/bin/bash -c -i \'shopt -s expand_aliases; {cmd}\'"'
 rofi5 = '/home/bloc67/.config/awesome/rofi-master/1080p/launchers/slate/launcher.sh'
+vol_mute = 'pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo 0'
+vol_full = 'pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo 65536'
+vol_half = 'pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo 48000'
+
+
+vbox = 'VirtualBox -style Fusion %U' 
+streamwr = "wine winappz/streamwriter.exe"
+claws = 'claws-mail --receive-all'
+easyeff1 = "easyeffects -l bass"
+easyeff2 = "easyeffects -l bass-reverb"
+
 
 @hook.subscribe.startup_once
 def autostart_once():
@@ -143,6 +184,52 @@ keys = [
 # throwaway groups for random stuff
 groups = []
 
+# groups with special jobs. I usually navigate to these via my app_or_group
+# function.
+groups.extend([
+    Group('AUDIO', spawn=['pavucontrol','easyeffects'], layout='columns', 
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['EasyEffects', 'pavucontrol','easyeffects'])]
+    ),
+    Group('EMBY', spawn='emby-theater', layout='max', 
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['emby-theater'])]
+    ),
+    Group('MUSIC', spawn=['quodlibet', 'kitty --hold pyradio'], layout='matrix', 
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['quodlibet','kitty'])]
+    ),
+    Group('WWW', spawn='brave', layout='tile',  
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['Brave','brave'])]
+    ),
+    Group('CODE', spawn='/usr/bin/code-oss --unity-launch %F', layout='columns',  
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['code-oss'])]
+    ),
+    Group('QBIT', spawn='qbittorrent', layout='coulmns',  
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['qbittorrent'])]
+    )
+])
+keys.append(Key([mod], 'a', lazy.group['AUDIO'].toscreen()))
+keys.append(Key([mod], 'm', lazy.group['MUSIC'].toscreen()))
+keys.append(Key([mod], 'b', lazy.group['WWW'].toscreen()))
+keys.append(Key([mod], 'c', lazy.group['CODE'].toscreen()))
+
+
 for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
     groups.append(Group(i, layout='columns'))
     keys.append(
@@ -152,6 +239,16 @@ for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
         Key([mod, "mod1"], i, lazy.window.togroup(i))
     )
 
+
+
+# Append scratchpad with dropdowns to groups
+groups.append(ScratchPad('scratchpad', [
+    DropDown('gedit', 'gedit /home/bloc67/.config/qtile/config.py', width=0.8, height=0.95, x=0.1, y=0.01, opacity=1),
+]))
+# extend keys list with keybinding for scratchpad
+keys.extend([
+    Key([mod], "x", lazy.group['scratchpad'].dropdown_toggle('gedit')),
+])
 
 layouts = [
     layout.Columns(border_focus_stack=["#000000", "#003533"], border_width=1),
@@ -185,8 +282,40 @@ screens = [
             [
                 widget.Spacer(length=10),
                 widget.CurrentLayout(),
+                #widget.Prompt(),
                 widget.Spacer(length=10),
+                #widget.Wttr(location={'Molde': 'Molde'}, units="M", markup='true', lang='nb', foreground="#909090", format="%l: <span color='#80f080'>%C</span> <span color='#f0d000'>%t</span> %p</span>",
+				#	mouse_callbacks={'Button1': lazy.spawn(wttrfull)}),
+                widget.Wttr(location={'Molde': 'Molde'}, units="M", markup='true', lang='nb', foreground="#909090", format="%l: <span color='#80f080'>%C</span> <span color='#f0d000'>%t</span> %p ↑<span color='#80f080'>%S</span> ↓<span color='#8080f0'>%s</span>"),
+                widget.Spacer(length=10),
+
+				#widget.TextBox("MPV", foreground="#57dfdf", mouse_callbacks={'Button1': lazy.spawn(mpv_command)},),
+				#widget.TextBox("BT", foreground="#577fdf", mouse_callbacks={'Button1': lazy.spawn(bt_command)},),
+                widget.TextBox("[SET]", foreground="#8080a0", mouse_callbacks={'Button1': lazy.spawn(setcmd)},),
+                #widget.TextBox("SERV", foreground="#80a080", mouse_callbacks={'Button1': lazy.spawn(mountservers)},),
+                #widget.WindowName(), 
+ 
                 widget.TextBox("[RESTART]", foreground="#f75f5f", mouse_callbacks={'Button1': lazy.spawn('reboot')},),
+                widget.TextBox("[CRON]", foreground="#8080a0", mouse_callbacks={'Button1': lazy.spawn(alljobs)},),
+                widget.TextBox("[SPACE]", foreground="#8080a0", mouse_callbacks={'Button1': lazy.spawn(space)},),
+				#widget.TextBox("STREAMWr", foreground="#57df7f", mouse_callbacks={'Button1': lazy.spawn(streamwr)},),
+                #widget.Spacer(length=10),
+                #widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/5.svg", margin_y=8, mouse_callbacks={'Button1': lazy.spawn(quodlibet5)},),
+                #widget.Spacer(length=4),
+                #widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/2.svg", margin_y=8, mouse_callbacks={'Button1': lazy.spawn(quodlibet6)},),
+                widget.Spacer(length=10),
+                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/play-circle.svg", margin_y=8, mouse_callbacks={'Button1': lazy.spawn(quodlibet1)},),
+                widget.Spacer(length=4),
+                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/skip-forward.svg", margin_y=7, mouse_callbacks={'Button1': lazy.spawn(quodlibet2)},),
+                widget.Spacer(length=6),
+                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/rewind.svg", margin_y=7, rotate="180", mouse_callbacks={'Button1': lazy.spawn(quodlibet4)},),
+        		widget.Spacer(length=10),
+                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/volume-2.svg", margin_y=7, mouse_callbacks={'Button1': lazy.spawn(quodlibet7)},),
+                widget.Spacer(length=10),
+                widget.Image(filename="/home/bloc67/.config/awesome/theme/icons/volume.svg", margin_y=7, mouse_callbacks={'Button1': lazy.spawn(quodlibet8)},),
+                widget.Spacer(length=4),
+                widget.DF(partition='/', visible_on_warn=False),
+                widget.Spacer(length=4),
                 widget.CPU(format="CPU {load_percent}%", mouse_callbacks={'Button1': lazy.spawn(bashtop)},),                
                 widget.Spacer(length=10),
                 widget.Memory(measure_mem='G', mouse_callbacks={'Button1': lazy.spawn(bashtop)}),                
@@ -226,6 +355,8 @@ screens = [
                     max_title_width=200,
                     mouse_callbacks={'Button3': lazy.window.kill()}
                 ),
+                widget.TextBox("<b>PC</b>", foreground="#d75f5f", mouse_callbacks={'Button1': lazy.spawn(stereo_command)},),
+                widget.TextBox("<b>TV</b> ", foreground="#67bfbf", mouse_callbacks={'Button1': lazy.spawn(hdmi_command)},),
                 widget.Clock(format="<span color='#888888'>%d-%m-%Y %a</span> <b>%H:%M</b>"),
                 widget.Spacer(length=10),
             ],
@@ -270,4 +401,17 @@ auto_minimize = False
 
 # When using the Wayland backend, this can be used to configure input devices.
 wl_input_rules = None
+
+@hook.subscribe.startup_once
+def autostart_once():
+    subprocess.run('/home/bloc67/.config/qtile/autostart.sh')
+
+# XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
+# string besides java UI toolkits; you can see several discussions on the
+# mailing lists, GitHub issues, and other WM documentation that suggest setting
+# this string if your java app doesn't work correctly. We may as well just lie
+# and say that we're a working one by default.
+#
+# We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
+# java that happens to be on java's whitelist.
 wmname = "LG3D"

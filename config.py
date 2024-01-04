@@ -234,7 +234,7 @@ screens = [
                 widget.TextBox(" | ", foreground="#888888"),
                 widget.CPU(format="cpu {load_percent}%", mouse_callbacks={'Button1': lazy.spawn(bashtop)},),                
                 widget.TextBox(" | ", foreground="#888888"),
-                widget.Memory(measure_mem=' GiB', mouse_callbacks={'Button1': lazy.spawn(bashtop)}),                
+                widget.Memory(measure_mem='G', mouse_callbacks={'Button1': lazy.spawn(bashtop)}),                
                 widget.TextBox(" | ", foreground="#888888"),
                 widget.Net(foreground="#88ffaa"),
                 widget.Systray(padding=2, size=32),

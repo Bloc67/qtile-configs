@@ -187,7 +187,7 @@ groups = []
 # groups with special jobs. I usually navigate to these via my app_or_group
 # function.
 for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
-    groups.append(Group(i, layout='columns'))
+    groups.append(Group(i, layout='verticaltile'))
     keys.append(
         Key([mod], i, lazy.group[i].toscreen())
     )

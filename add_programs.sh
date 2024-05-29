@@ -6,13 +6,14 @@ yay -S micro
 echo "---------------"
 echo "yay -S lxappearance rofi micro xfce4-power-manager qtile terminator syncthing-gtk quodlibet picom arandr"
 echo "yay -S emby-server emby-theater qbittorrent vscodium obsidian grsync sickchill"
-echo "yay mda"
-echo "yay calf"
-echo "yay lv2-plugins"
-echo "yay dropbox"
-
-echo "yay git ttf-roboto rofi xclip qt5-styleplugins materia-gtk-theme pnmixer network-manager-applet"
+echo "yay -S mda calf lv2-plugins"
+echo "yay -S nicotine+"
+echo "yay -S git ttf-roboto rofi xclip qt5-styleplugins materia-gtk-theme pnmixer network-manager-applet"
 echo "wget -qO- https://git.io/papirus-icon-theme-install | sh"
+echo "yay dropbox"
+echo "yay youtube"
+echo "yay ytdlp"
+
 cp config.py ../.config/qtile/config.py
 echo "---------------"
 echo "Copied over qtile config."

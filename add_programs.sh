@@ -14,7 +14,7 @@ echo "${yel}**************************"
 echo "Install programs for use with Qtile:"
 echo "--------------------------${end}"
 
-array=( fakeroot base-devel patch micro xfce4-power-manager lxappearance rofi qtile terminator syncthing syncthing-gtk arandr mda claf lv2-plugins git ttf-roboto xclip qt5-styleplugins materia-gtk-theme pnmixer network-manager-applet easyeffects dejavu thorium gthumb ffmpeg )
+array=( fakeroot base-devel patch micro xfce4-power-manager lxappearance rofi qtile terminator arandr lv2-plugins git ttf-roboto xclip qt5-styleplugins materia-gtk-theme network-manager-applet easyeffects dejavu thorium ffmpeg mpv )
 for i in "${array[@]}"
     do
 #        read -p "Search for ${cyn}$i${end} (j/n)? " answer
@@ -50,6 +50,7 @@ echo "--------------------------${end}"
 read -p "copy over ${cyn}Qtile .config + autostart.sh ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
+        mkdir /home/bloc67/.config/qtile
         cp autostart.sh /home/bloc67/.config/qtile/autostart.sh
         cp config.py /home/bloc67/.config/qtile/config.py
     ;;

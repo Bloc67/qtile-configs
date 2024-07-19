@@ -187,6 +187,21 @@ groups = []
 
 # groups with special jobs. I usually navigate to these via my app_or_group
 # function.
+groups.extend([
+    Group('AUDIO', spawn=['cinnamon-settings sound', 'easyeffects'], layout='columns', 
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['EasyEffects', 'easyeffects'])]
+    ),
+    Group('WWW', spawn='/usr/bin/thorium-browser', layout='columns',  
+        persist=True,
+        init=True,
+        exclusive=False,
+        matches=[Match(wm_class=['thorium'])]
+    )
+])
+
 for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
     groups.append(Group(i, layout='columns'))
     keys.append(
@@ -200,12 +215,12 @@ for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
 
 layouts = [
     layout.Columns(border_focus_stack=["#000000", "#003533"], border_width=1),
-    layout.Tile(ratio=0.75, border_focus="#003553", border_normal="#000000", border_width=1),
+    #layout.Tile(ratio=0.75, border_focus="#003553", border_normal="#000000", border_width=1),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     #layout.Stack(num_stacks=2),
     #layout.Bsp(),
-    layout.Matrix(),
+    #layout.Matrix(),
     #layout.MonadTall(),
     #layout.MonadWide(ratio=0.7, border_focus="#003553", border_normal="#000000", border_width=1),
     #layout.RatioTile(),

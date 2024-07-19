@@ -44,6 +44,40 @@ echo "${yel}Done.${end}"
 echo "${grn}cat /etc/fuse.conf:${end}"
 cat /etc/fuse.conf | grep user_allow_other
 
+echo "${yel}**************************"
+echo "Copy files:"
+echo "--------------------------${end}"
+read -p "copy over ${cyn}Qtile .config + autostart.sh ${end} (j/n)? " answer
+case ${answer:0:1} in
+    j|J )
+        cp autostart.sh /home/bloc67/.config/qtile/autostart.sh
+        cp config.py /home/bloc67/.config/qtile/config.py
+    ;;
+    * )
+        echo "${red}Skipping${end} ${cyn}Qtile files{end}"
+    ;;
+esac
+read -p "copy over ${cyn}MPV config files ${end} (j/n)? " answer
+case ${answer:0:1} in
+    j|J )
+        cp -R mpv /home/bloc67/.config/
+        cp config.py /home/bloc67/.config/qtile/config.py
+    ;;
+    * )
+        echo "${red}Skipping${end} ${cyn}MPV files{end}"
+    ;;
+esac
+read -p "copy over ${cyn}Easyeffects presets ${end} (j/n)? " answer
+case ${answer:0:1} in
+    j|J )
+        cp bass.json /home/bloc67/.config/easyeffects/output/bass.json
+        cp LoudnessEqualizer.json /home/bloc67/.config/easyeffects/output/LoudnessEqualizer.json
+    ;;
+    * )
+        echo "${red}Skipping${end} ${cyn}Qtile files{end}"
+    ;;
+esac
+
 
 
 

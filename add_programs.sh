@@ -11,7 +11,7 @@ cyn=$'\e[1;36m'
 end=$'\e[0m'
 
 echo "${yel}**************************"
-echo "Install programs:"
+echo "Install programs for use with Qtile:"
 echo "--------------------------${end}"
 
 array=( fakeroot base-devel patch micro xfce4-power-manager lxappearance rofi qtile terminator syncthing syncthing-gtk arandr mda claf lv2-plugins git ttf-roboto xclip qt5-styleplugins materia-gtk-theme pnmixer network-manager-applet easyeffects dejavu thorium gthumb ffmpeg )
@@ -78,7 +78,19 @@ case ${answer:0:1} in
     ;;
 esac
 
+echo "${yel}Adding Chaotic rep...${end}"
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 
 
+echo "add to /etc/pacman.conf..."
+echo " " | sudo tee -a /etc/pacman.conf
+echo "[chaotic-aur]" | sudo tee -a /etc/pacman.conf
+echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf
+echo "${yel}Done.${end}"
+echo "${grn}cat /etc/pacman.conf:${end}"
+cat /etc/pacman.conf
 
 

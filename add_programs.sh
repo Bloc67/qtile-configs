@@ -75,7 +75,18 @@ case ${answer:0:1} in
         cp LoudnessEqualizer.json /home/bloc67/.config/easyeffects/output/LoudnessEqualizer.json
     ;;
     * )
-        echo "${red}Skipping${end} ${cyn}Qtile files{end}"
+        echo "${red}Skipping${end} ${cyn}easyeffects files{end}"
+    ;;
+esac
+read -p "copy over ${cyn}Rofi ${end} (j/n)? " answer
+case ${answer:0:1} in
+    j|J )
+        cp -R rofi home/bloc67/.local/share/
+        mkdir home/bloc67/.config/rofi
+        cp config.rasi /home/bloc67/.config/rofi/config.rasi
+    ;;
+    * )
+        echo "${red}Skipping${end} ${cyn}Rofi files{end}"
     ;;
 esac
 
@@ -93,5 +104,7 @@ echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf
 echo "${yel}Done.${end}"
 echo "${grn}cat /etc/pacman.conf:${end}"
 cat /etc/pacman.conf
+lxappearance
+xfce4-power-manager
 
 

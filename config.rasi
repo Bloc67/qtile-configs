@@ -1,0 +1,18 @@
+//@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/home/bloc67/.local/share/rofi/themes/rounded-nord-dark.rasi"
+//@theme "/home/bloc67/.local/share/rofi/themes/rounded-nord-dark.rasi"
+
+configuration {
+  /* Highlight an entry under the mouse pointer */
+  hover-select: true;
+  /* Disable MousePrimary as an entry selector */
+  /* Without this setting you won't be able to set MousePrimary as an entry
+     acceptor. */
+  me-select-entry: "";
+  /* Use either LMB single click or RMB single click or LMB double click
+     to accept an entry */
+  me-accept-entry: [ MousePrimary, MouseSecondary, MouseDPrimary ];
+}
+//@theme "/usr/share/rofi/themes/Adapta-Nokto.rasi"
+@theme "/home/bloc67/.local/share/rofi/themes/rounded-nord-dark.rasi"

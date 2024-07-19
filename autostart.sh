@@ -2,7 +2,7 @@
 #
 
 #/home/bloc67/.config/qtile/do_stereo.sh
-picom &
+#picom &
 #nohup qbittorrent-nox &
 nm-applet --indicator &
 #syncthing-gtk &

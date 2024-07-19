@@ -152,6 +152,7 @@ keys = [
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.spawn(terminal), desc="Shutdown Qtile"),
+    Key([mod], "c", lazy.spawn('nemo'), desc="Nemo"),
     # Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 ]
 
@@ -187,7 +188,7 @@ groups = []
 # groups with special jobs. I usually navigate to these via my app_or_group
 # function.
 for i in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
-    groups.append(Group(i, layout='verticaltile'))
+    groups.append(Group(i, layout='columns'))
     keys.append(
         Key([mod], i, lazy.group[i].toscreen())
     )
@@ -209,7 +210,7 @@ layouts = [
     #layout.MonadWide(ratio=0.7, border_focus="#003553", border_normal="#000000", border_width=1),
     #layout.RatioTile(),
     #layout.TreeTab(),
-    layout.VerticalTile(),
+    #layout.VerticalTile(),
     #layout.Zoomy(),
 ]
 
@@ -231,6 +232,8 @@ screens = [
                 widget.CurrentLayout(),
                 widget.TextBox(" | ", foreground="#888888"),
                 widget.TextBox("[RESTART]", foreground="#f75f5f", mouse_callbacks={'Button1': lazy.spawn('reboot')},),
+                widget.TextBox(" | ", foreground="#888888"),
+                widget.Volume(fmt='<span color="#ffff7f">VOLUME: {}</span>'),             
                 widget.Spacer(),
                 widget.CPU(format="cpu {load_percent}%", mouse_callbacks={'Button1': lazy.spawn(bashtop)},),                
                 widget.TextBox(" | ", foreground="#888888"),
@@ -272,8 +275,8 @@ screens = [
 
 # Drag floating layouts.
 mouse = [
-#    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
-#    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
+    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
 
@@ -300,7 +303,7 @@ reconfigure_screens = True
 
 # If things like steam games want to auto-minimize themselves when losing
 # focus, should we respect this or not?
-auto_minimize = False
+auto_minimize = True
 
 # When using the Wayland backend, this can be used to configure input devices.
 wl_input_rules = None
@@ -308,6 +311,7 @@ wl_input_rules = None
 @hook.subscribe.startup_once
 def autostart_once():
     subprocess.run('/home/bloc67/.config/qtile/autostart.sh')
+
 
 # XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
 # string besides java UI toolkits; you can see several discussions on the

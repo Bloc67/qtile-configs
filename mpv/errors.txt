@@ -1,0 +1,1039 @@
+[   0.000][d][global] user path: 'errors.txt' -> 'errors.txt'
+[   0.001][v][cplayer] mpv v0.38.0-dirty Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.001][v][cplayer]  built on May 23 2024 10:29:03
+[   0.001][v][cplayer] libplacebo version: v6.338.2
+[   0.001][v][cplayer] FFmpeg version: n6.1.1
+[   0.001][v][cplayer] FFmpeg library versions:
+[   0.001][v][cplayer]    libavutil       58.29.100
+[   0.001][v][cplayer]    libavcodec      60.31.102
+[   0.001][v][cplayer]    libavformat     60.16.100
+[   0.001][v][cplayer]    libswscale      7.5.100
+[   0.001][v][cplayer]    libavfilter     9.12.100
+[   0.001][v][cplayer]    libswresample   4.12.100
+[   0.001][v][cplayer] 
+[   0.001][v][cplayer] Configuration: -Db_pie=true -Dpython.bytecompile=1 -Dlibmpv=true -Dgl-x11=enabled -Dcaca=disabled -Dcdda=enabled -Ddvbin=enabled -Ddvdnav=enabled -Dlibarchive=enabled -Dopenal=enabled -Dprefix=/usr -Dlibexecdir=lib -Dsbindir=bin -Dauto_features=auto -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.001][v][cplayer] List of enabled features: alsa av-channel-layout avif-muxer build-date cdda cplugins cuda-hwaccel cuda-interop dmabuf-interop-gl dmabuf-wayland drm dvbin dvdnav egl egl-drm egl-wayland egl-x11 ffmpeg ffnvcodec gbm gl gl-x11 glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg jpegxl lavu-uuid lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs luajit memfd-create openal pipewire posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 sixel uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vdpau-gl-x11 vector vk-khr-display vt.h vulkan vulkan-interop wayland wayland-protocols-1-27 wayland-protocols-1-31 wayland-protocols-1-32 x11 xv zimg zimg-st428 zlib
+[   0.001][v][cplayer] Command line options: '--log-file=errors.txt' '/mnt/tvseries/Andor/Season 1/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv'
+[   0.001][v][cplayer] mpv v0.38.0-dirty Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.001][v][cplayer]  built on May 23 2024 10:29:03
+[   0.001][v][cplayer] libplacebo version: v6.338.2
+[   0.001][v][cplayer] FFmpeg version: n6.1.1
+[   0.001][v][cplayer] FFmpeg library versions:
+[   0.001][v][cplayer]    libavutil       58.29.100
+[   0.001][v][cplayer]    libavcodec      60.31.102
+[   0.001][v][cplayer]    libavformat     60.16.100
+[   0.001][v][cplayer]    libswscale      7.5.100
+[   0.001][v][cplayer]    libavfilter     9.12.100
+[   0.001][v][cplayer]    libswresample   4.12.100
+[   0.001][v][cplayer] 
+[   0.001][v][cplayer] Configuration: -Db_pie=true -Dpython.bytecompile=1 -Dlibmpv=true -Dgl-x11=enabled -Dcaca=disabled -Dcdda=enabled -Ddvbin=enabled -Ddvdnav=enabled -Dlibarchive=enabled -Dopenal=enabled -Dprefix=/usr -Dlibexecdir=lib -Dsbindir=bin -Dauto_features=auto -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.001][v][cplayer] List of enabled features: alsa av-channel-layout avif-muxer build-date cdda cplugins cuda-hwaccel cuda-interop dmabuf-interop-gl dmabuf-wayland drm dvbin dvdnav egl egl-drm egl-wayland egl-x11 ffmpeg ffnvcodec gbm gl gl-x11 glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg jpegxl lavu-uuid lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs luajit memfd-create openal pipewire posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 sixel uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vdpau-gl-x11 vector vk-khr-display vt.h vulkan vulkan-interop wayland wayland-protocols-1-27 wayland-protocols-1-31 wayland-protocols-1-32 x11 xv zimg zimg-st428 zlib
+[   0.001][d][global] home path: '' -> '/home/bloc67/.config/mpv'
+[   0.001][d][global] user path: '~~home/' -> '/home/bloc67/.config/mpv'
+[   0.001][d][global] user path: '~~old_home/' -> '/home/bloc67/.mpv'
+[   0.001][d][global] config path: 'encoding-profiles.conf' -/-> '/home/bloc67/.config/mpv/encoding-profiles.conf'
+[   0.001][d][global] config path: 'encoding-profiles.conf' -/-> '/home/bloc67/.mpv/encoding-profiles.conf'
+[   0.001][d][global] config path: 'encoding-profiles.conf' -> '/etc/mpv/encoding-profiles.conf'
+[   0.001][v][cplayer] Reading config file /etc/mpv/encoding-profiles.conf
+[   0.001][v][ifo_dvdnav] Opening /etc/mpv/encoding-profiles.conf
+[   0.001][v][bdmv/bluray] Opening /etc/mpv/encoding-profiles.conf
+[   0.001][v][file] Opening /etc/mpv/encoding-profiles.conf
+[   0.001][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.001][d][file] Stream opened successfully.
+[   0.001][v][cplayer] Applying profile 'default'...
+[   0.001][d][global] config path: 'mpv.conf' -> '/home/bloc67/.config/mpv/mpv.conf'
+[   0.001][d][global] config path: 'config' -/-> '/home/bloc67/.config/mpv/config'
+[   0.001][d][global] config path: 'mpv.conf' -/-> '/home/bloc67/.mpv/mpv.conf'
+[   0.001][d][global] config path: 'config' -/-> '/home/bloc67/.mpv/config'
+[   0.001][d][global] config path: 'mpv.conf' -/-> '/etc/mpv/mpv.conf'
+[   0.001][d][global] config path: 'config' -/-> '/etc/mpv/config'
+[   0.001][v][cplayer] Reading config file /home/bloc67/.config/mpv/mpv.conf
+[   0.001][v][ifo_dvdnav] Opening /home/bloc67/.config/mpv/mpv.conf
+[   0.001][v][bdmv/bluray] Opening /home/bloc67/.config/mpv/mpv.conf
+[   0.001][v][file] Opening /home/bloc67/.config/mpv/mpv.conf
+[   0.001][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.001][d][file] Stream opened successfully.
+[   0.001][v][cplayer] Applying profile 'default'...
+[   0.001][v][cplayer] Setting option 'hwdec' = 'auto' (flags = 4)
+[   0.001][v][cplayer] Setting option 'profile' = 'gpu-hq' (flags = 4)
+[   0.001][v][cplayer] Applying profile 'gpu-hq'...
+[   0.001][v][cplayer] Setting option 'profile' = 'high-quality' (flags = 4)
+[   0.001][v][cplayer] Applying profile 'high-quality'...
+[   0.001][v][cplayer] Setting option 'scale' = 'ewa_lanczossharp' (flags = 4)
+[   0.001][v][cplayer] Setting option 'hdr-peak-percentile' = '99.995' (flags = 4)
+[   0.001][v][cplayer] Setting option 'hdr-contrast-recovery' = '0.30' (flags = 4)
+[   0.001][v][cplayer] Setting option 'scale' = 'ewa_lanczossharp' (flags = 4)
+[   0.001][v][cplayer] Setting option 'cscale' = 'ewa_lanczossharp' (flags = 4)
+[   0.001][v][cplayer] Setting option 'reset-on-next-file' = 'all' (flags = 4)
+[   0.001][v][cplayer] Setting option 'save-position-on-quit' = '' (flags = 4)
+[   0.001][v][cplayer] Setting option 'write-filename-in-watch-later-config' = '' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-color' = '1.0/1.0/1.0/0.40' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-border-size' = '0' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-scale' = '0.6' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-pos' = '96' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-back-color' = '0/0/0/0.40' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-shadow-offset' = '10' (flags = 4)
+[   0.001][v][cplayer] Setting option 'blend-subtitles' = 'yes' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-auto' = 'all' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sub-file-paths' = 'sub:subtitles:subs' (flags = 4)
+[   0.001][v][cplayer] Setting option 'use-filedir-conf' = '' (flags = 4)
+[   0.001][v][cplayer] Setting option 'osc' = 'no' (flags = 4)
+[   0.001][v][cplayer] Setting option 'sharpen' = '0' (flags = 4)
+[   0.001][v][cplayer] Setting option 'osd-font-size' = '30' (flags = 4)
+[   0.001][v][cplayer] Setting option 'volume' = '88' (flags = 4)
+[   0.001][v][cplayer] Setting option 'af' = 'lavfi=[pan=stereo|FL=1.0FC+0.907FL+0.907SL+0.907BL+0LFE|FR=1.0FC+0.907FR+0.907SR+0.907BR+0LFE]' (flags = 4)
+[   0.002][v][cplayer] Setting option 'log-file' = 'errors.txt' (flags = 8)
+[   0.002][d][global] config path: 'input.conf' -> '/home/bloc67/.config/mpv/input.conf'
+[   0.002][d][global] config path: 'input.conf' -/-> '/home/bloc67/.mpv/input.conf'
+[   0.002][d][global] config path: 'input.conf' -/-> '/etc/mpv/input.conf'
+[   0.002][d][global] user path: '/home/bloc67/.config/mpv/input.conf' -> '/home/bloc67/.config/mpv/input.conf'
+[   0.002][v][ifo_dvdnav] Opening /home/bloc67/.config/mpv/input.conf
+[   0.002][v][bdmv/bluray] Opening /home/bloc67/.config/mpv/input.conf
+[   0.002][v][file] Opening /home/bloc67/.config/mpv/input.conf
+[   0.002][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.002][d][file] Stream opened successfully.
+[   0.002][v][input] Parsing input config file /home/bloc67/.config/mpv/input.conf
+[   0.002][v][input] Input config file /home/bloc67/.config/mpv/input.conf parsed: 23 binds
+[   0.002][d][global] user path: 'errors.txt' -> 'errors.txt'
+[   0.003][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.003][d][stats] Loading lua script @stats.lua...
+[   0.003][d][console] Loading lua script @console.lua...
+[   0.003][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.003][d][global] config path: 'scripts' -> '/home/bloc67/.config/mpv/scripts'
+[   0.003][d][global] config path: 'scripts' -/-> '/home/bloc67/.mpv/scripts'
+[   0.003][d][global] config path: 'scripts' -/-> '/etc/mpv/scripts'
+[   0.003][d][ytdl_hook] loading mp.defaults
+[   0.003][d][stats] loading mp.defaults
+[   0.003][d][channelmixer] Loading lua script /home/bloc67/.config/mpv/scripts/channelmixer.lua...
+[   0.003][d][console] loading mp.defaults
+[   0.003][d][auto_profiles] loading mp.defaults
+[   0.003][d][mpv] Loading lua script /home/bloc67/.config/mpv/scripts/mpv.lua...
+[   0.003][d][channelmixer] loading mp.defaults
+[   0.003][d][cycle_denoise] Loading lua script /home/bloc67/.config/mpv/scripts/cycle-denoise.lua...
+[   0.003][d][reload] Loading lua script /home/bloc67/.config/mpv/scripts/reload.lua...
+[   0.003][d][modernx] Loading lua script /home/bloc67/.config/mpv/scripts/modernx.lua...
+[   0.003][d][mpv] loading mp.defaults
+[   0.003][d][console] loading @console.lua
+[   0.003][d][stats] loading @stats.lua
+[   0.003][v][cplayer] Waiting for scripts...
+[   0.003][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.003][d][auto_profiles] loading @auto_profiles.lua
+[   0.003][d][cycle_denoise] loading mp.defaults
+[   0.003][d][reload] loading mp.defaults
+[   0.003][d][modernx] loading mp.defaults
+[   0.003][d][channelmixer] loading file /home/bloc67/.config/mpv/scripts/channelmixer.lua
+[   0.004][d][mpv] loading file /home/bloc67/.config/mpv/scripts/mpv.lua
+[   0.004][d][modernx] loading file /home/bloc67/.config/mpv/scripts/modernx.lua
+[   0.004][d][reload] loading file /home/bloc67/.config/mpv/scripts/reload.lua
+[   0.004][d][ytdl_hook] reading options for ytdl_hook
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/bloc67/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/bloc67/.mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/etc/mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][ytdl_hook] script-opts/ytdl_hook.conf not found.
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/bloc67/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/bloc67/.mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/etc/mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][ytdl_hook] lua-settings/ytdl_hook.conf not found.
+[   0.004][d][cycle_denoise] loading file /home/bloc67/.config/mpv/scripts/cycle-denoise.lua
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_channelmixer", contents="Ctrl+Shift+1 script-binding channelmixer/mReset\nAlt+1 script-binding channelmixer/cUp\nCtrl+1 script-binding channelmixer/cDown\nAlt+2 script-binding channelmixer/fUp\nCtrl+2 script-binding channelmixer/fDown\nAlt+3 script-binding channelmixer/sUp\nCtrl+3 script-binding channelmixer/sDown\nAlt+4 script-binding channelmixer/bUp\nCtrl+4 script-binding channelmixer/bDown\nAlt+5 script-binding channelmixer/lUp\nCtrl+5 script-binding channelmixer/lDown\n", flags="default"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_mpv", contents="b script-binding mpv/auto_load_subs\n", flags="default"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_channelmixer", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_mpv", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_channelmixer", contents="", flags="force"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_channelmixer", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_reload", contents="R script-binding reload/reload\n", flags="default"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_reload", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][console] reading options for console
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/home/bloc67/.config/mpv/script-opts/console.conf'
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/home/bloc67/.mpv/script-opts/console.conf'
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/etc/mpv/script-opts/console.conf'
+[   0.004][d][console] script-opts/console.conf not found.
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/home/bloc67/.config/mpv/lua-settings/console.conf'
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/home/bloc67/.mpv/lua-settings/console.conf'
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/etc/mpv/lua-settings/console.conf'
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_mpv", contents="", flags="force"]
+[   0.004][d][console] lua-settings/console.conf not found.
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_mpv", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_reload", contents="", flags="force"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_reload", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_cycle_denoise", contents="n script-binding cycle_denoise/denoise\n", flags="default"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_cycle_denoise", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][stats] reading options for stats
+[   0.004][d][global] config path: 'script-opts/stats.conf' -/-> '/home/bloc67/.config/mpv/script-opts/stats.conf'
+[   0.004][d][global] config path: 'script-opts/stats.conf' -/-> '/home/bloc67/.mpv/script-opts/stats.conf'
+[   0.004][d][global] config path: 'script-opts/stats.conf' -/-> '/etc/mpv/script-opts/stats.conf'
+[   0.004][d][stats] script-opts/stats.conf not found.
+[   0.004][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/bloc67/.config/mpv/lua-settings/stats.conf'
+[   0.004][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/bloc67/.mpv/lua-settings/stats.conf'
+[   0.004][d][global] config path: 'lua-settings/stats.conf' -/-> '/etc/mpv/lua-settings/stats.conf'
+[   0.004][d][stats] lua-settings/stats.conf not found.
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_cycle_denoise", contents="", flags="force"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_cycle_denoise", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][modernx] reading options for osc
+[   0.006][d][global] config path: 'script-opts/osc.conf' -/-> '/home/bloc67/.config/mpv/script-opts/osc.conf'
+[   0.006][d][global] config path: 'script-opts/osc.conf' -/-> '/home/bloc67/.mpv/script-opts/osc.conf'
+[   0.006][d][global] config path: 'script-opts/osc.conf' -/-> '/etc/mpv/script-opts/osc.conf'
+[   0.006][d][modernx] script-opts/osc.conf not found.
+[   0.006][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/bloc67/.config/mpv/lua-settings/osc.conf'
+[   0.006][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/bloc67/.mpv/lua-settings/osc.conf'
+[   0.006][d][global] config path: 'lua-settings/osc.conf' -/-> '/etc/mpv/lua-settings/osc.conf'
+[   0.006][d][modernx] lua-settings/osc.conf not found.
+[   0.006][d][cplayer] Run command: script-message, flags=64, args=[args="tn_osc_registration", args="{\"script_name\":\"modernx\",\"osc_opts\":{\"scalefullscreen\":1,\"scalewindowed\":1}}"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding modernx/__keybinding1\nmouse_leave script-binding modernx/__keybinding2\n", flags="force"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding modernx/__keybinding3\nmouse_leave script-binding modernx/__keybinding4\n", flags="force"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding modernx/__keybinding5\nshift+mbtn_left script-binding modernx/__keybinding6\nmbtn_right script-binding modernx/__keybinding7\nmbtn_mid script-binding modernx/__keybinding8\nwheel_up script-binding modernx/__keybinding9\nwheel_down script-binding modernx/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding modernx/__keybinding11\n", flags="force"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.006][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.006][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.006][v][cplayer] Done loading scripts.
+[   0.006][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[   0.006][v][cplayer] Running hook: auto_profiles/on_before_start_file
+[   0.006][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.006][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.007][i][cplayer] Loading config '/mnt/tvseries/Andor/Season 1/mpv.conf'
+[   0.007][v][cplayer] Reading config file /mnt/tvseries/Andor/Season 1/mpv.conf
+[   0.007][v][ifo_dvdnav] Opening /mnt/tvseries/Andor/Season 1/mpv.conf
+[   0.007][v][bdmv/bluray] Opening /mnt/tvseries/Andor/Season 1/mpv.conf
+[   0.007][v][file] Opening /mnt/tvseries/Andor/Season 1/mpv.conf
+[   0.007][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.007][d][file] Stream opened successfully.
+[   0.007][v][cplayer] Applying profile 'default'...
+[   0.007][v][cplayer] Setting option 'contrast' = '2' (flags = 52)
+[   0.007][v][cplayer] Setting option 'brightness' = '0' (flags = 52)
+[   0.007][v][cplayer] Setting option 'saturation' = '0' (flags = 52)
+[   0.007][v][cplayer] Setting option 'volume' = '100' (flags = 52)
+[   0.007][v][cplayer] Setting option 'gamma' = '8' (flags = 52)
+[   0.007][v][cplayer] Setting option 'aid' = '1' (flags = 52)
+[   0.007][v][cplayer] Setting option 'sid' = '1' (flags = 52)
+[   0.007][v][cplayer] Setting option 'sub-pos' = '87' (flags = 52)
+[   0.007][v][cplayer] Setting option 'sub-scale' = '0.500000' (flags = 52)
+[   0.007][d][global] config path: 'andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv.conf' -/-> '/home/bloc67/.config/mpv/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv.conf'
+[   0.007][d][global] config path: 'andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv.conf' -/-> '/home/bloc67/.mpv/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv.conf'
+[   0.007][d][global] config path: 'andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv.conf' -/-> '/etc/mpv/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv.conf'
+[   0.007][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[   0.007][i][cplayer] Resuming playback. This behavior can be disabled with --no-resume-playback.
+[   0.007][v][cplayer] Loading config '/home/bloc67/.local/state/mpv/watch_later/799ABA81D59BED254BC63318F4E83867'
+[   0.007][v][cplayer] Reading config file /home/bloc67/.local/state/mpv/watch_later/799ABA81D59BED254BC63318F4E83867
+[   0.007][v][ifo_dvdnav] Opening /home/bloc67/.local/state/mpv/watch_later/799ABA81D59BED254BC63318F4E83867
+[   0.007][v][bdmv/bluray] Opening /home/bloc67/.local/state/mpv/watch_later/799ABA81D59BED254BC63318F4E83867
+[   0.007][v][file] Opening /home/bloc67/.local/state/mpv/watch_later/799ABA81D59BED254BC63318F4E83867
+[   0.007][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.007][d][file] Stream opened successfully.
+[   0.007][v][cplayer] Applying profile 'default'...
+[   0.007][v][cplayer] Setting option 'start' = '20.292000' (flags = 36)
+[   0.007][v][cplayer] Setting option 'volume' = '100.000000' (flags = 36)
+[   0.007][v][cplayer] Setting option 'gamma' = '8.000000' (flags = 36)
+[   0.007][v][cplayer] Setting option 'contrast' = '2.000000' (flags = 36)
+[   0.007][v][cplayer] Setting option 'aid' = '1' (flags = 36)
+[   0.007][v][cplayer] Setting option 'sid' = '1' (flags = 36)
+[   0.007][v][cplayer] Setting option 'sub-pos' = '87.000000' (flags = 36)
+[   0.007][v][cplayer] Setting option 'sub-scale' = '0.500000' (flags = 36)
+[   0.007][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.007][v][ytdl_hook] ytdl:// hook
+[   0.007][v][ytdl_hook] not a ytdl:// url
+[   0.007][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.007][v][ytdl_hook] playlist hook
+[   0.007][d][modernx] osc_init
+[   0.008][v][cplayer] Running hook: auto_profiles/on_load
+[   0.008][v][ifo_dvdnav] Opening /mnt/tvseries/Andor/Season 1/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv
+[   0.008][v][bdmv/bluray] Opening /mnt/tvseries/Andor/Season 1/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv
+[   0.008][v][file] Opening /mnt/tvseries/Andor/Season 1/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv
+[   0.008][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.008][d][file] Stream opened successfully.
+[   0.008][v][demux] Trying demuxers for level=normal.
+[   0.008][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.008][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.008][d][global] config path: 'fonts' -> '/home/bloc67/.config/mpv/fonts'
+[   0.008][d][osd/libass] ASS library version: 0x1702000 (runtime 0x1702000)
+[   0.008][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.008][v][osd/libass] libass API version: 0x1702000
+[   0.008][v][osd/libass] libass source: commit: 0.17.2-0-gcbb48cc4f2f076300004b8b06a86bec55281d0c2-dirty
+[   0.008][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.008][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.008][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.008][d][mkv] Found the head...
+[   0.008][d][mkv] + a segment...
+[   0.008][v][osd/libass] Shaper: FriBidi 1.0.14 (SIMPLE) HarfBuzz-ng 8.5.0 (COMPLEX)
+[   0.008][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.config/mpv/subfont.ttf'
+[   0.008][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.mpv/subfont.ttf'
+[   0.008][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.008][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.config/mpv/fonts.conf'
+[   0.008][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.mpv/fonts.conf'
+[   0.008][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.008][v][osd/libass] Setting up fonts...
+[   0.008][d][mkv] Parsing seek head...
+[   0.008][d][mkv] |+ segment information...
+[   0.008][d][mkv] float 2474176.000000
+[   0.008][d][mkv] | + muxing app: libebml v1.4.2 + libmatroska v1.6.4
+[   0.008][d][mkv] | + writing app: mkvmerge v70.0.0 ('Caught A Lite Sneeze') 64-bit
+[   0.008][d][mkv] | + timecode scale: 1000000
+[   0.008][d][mkv] | + duration: 2474.176s
+[   0.008][d][mkv] | + segment uid 49 0b de d9 bb df 6d 60 ae bc 19 4d 63 0f 88 61
+[   0.008][d][mkv] |+ segment tracks...
+[   0.008][d][mkv] float 48000.000000
+[   0.008][d][mkv] float 48000.000000
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 1
+[   0.008][d][mkv] |  + Track type: Video
+[   0.008][d][mkv] |  + Video track
+[   0.008][d][mkv] |   + Display width: 1920
+[   0.008][d][mkv] |   + Display height: 1080
+[   0.008][d][mkv] |   + Pixel width: 1920
+[   0.008][d][mkv] |   + Pixel height: 1080
+[   0.008][d][mkv] |  + Codec ID: V_MPEG4/ISO/AVC
+[   0.008][d][mkv] |  + CodecPrivate, length 58
+[   0.008][d][mkv] |  + LanguageBCP47: und
+[   0.008][d][mkv] |  + Default duration: 41.667ms ( = 24.000 fps)
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 2
+[   0.008][d][mkv] |  + Name: French
+[   0.008][d][mkv] |  + Track type: Audio
+[   0.008][d][mkv] |  + Audio track
+[   0.008][d][mkv] |   + Sampling frequency: 48000.000000
+[   0.008][d][mkv] |   + Channels: 6
+[   0.008][d][mkv] |  + Codec ID: A_EAC3
+[   0.008][d][mkv] |  + LanguageBCP47: fr
+[   0.008][d][mkv] |  + Default duration: 32.000ms ( = 31.250 fps)
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 3
+[   0.008][d][mkv] |  + Name: English
+[   0.008][d][mkv] |  + Track type: Audio
+[   0.008][d][mkv] |  + Audio track
+[   0.008][d][mkv] |   + Sampling frequency: 48000.000000
+[   0.008][d][mkv] |   + Channels: 6
+[   0.008][d][mkv] |  + Codec ID: A_EAC3
+[   0.008][d][mkv] |  + LanguageBCP47: en
+[   0.008][d][mkv] |  + Default flag: 0
+[   0.008][d][mkv] |  + Default duration: 32.000ms ( = 31.250 fps)
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 4
+[   0.008][d][mkv] |  + Name: French (Forced)
+[   0.008][d][mkv] |  + Track type: Subtitle
+[   0.008][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.008][d][mkv] |  + LanguageBCP47: fr
+[   0.008][d][mkv] |  + Forced flag: 1
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 5
+[   0.008][d][mkv] |  + Name: French
+[   0.008][d][mkv] |  + Track type: Subtitle
+[   0.008][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.008][d][mkv] |  + LanguageBCP47: fr
+[   0.008][d][mkv] |  + Default flag: 0
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 6
+[   0.008][d][mkv] |  + Name: English (SDH)
+[   0.008][d][mkv] |  + Track type: Subtitle
+[   0.008][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.008][d][mkv] |  + LanguageBCP47: en
+[   0.008][d][mkv] |  + Default flag: 0
+[   0.008][d][mkv] |+ found cluster
+[   0.008][v][mkv] Seeking to 2082497511 to read header element 0x1c53bb6b.
+[   0.008][v][file] stream level seek from 131072 to 2082497511
+[   0.008][v][mkv] Parsing cues...
+[   0.009][v][mkv] Seeking to 2082548581 to read header element 0x1254c367.
+[   0.009][v][file] stream level seek from 2082550617 to 6004
+[   0.009][v][mkv] All headers are parsed!
+[   0.009][v][demux] Detected file format: Matroska
+[   0.009][v][cplayer] Opening done: /mnt/tvseries/Andor/Season 1/andor.s01e01.multi.1080p.web.h264-stringerbell[eztv.re].mkv
+[   0.010][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/oscc.ttf'
+[   0.010][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/Material-Design-Iconic-Font.ttf'
+[   0.010][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/modernx-osc-icon.ttf'
+[   0.010][i][osd/libass] Error opening memory font 'oscc.ttf'
+[   0.014][v][osd/libass] Using font provider fontconfig
+[   0.014][v][osd/libass] Done.
+[   0.014][v][find_files] Loading external files in /mnt/tvseries/Andor/Season 1/
+[   0.014][d][global] user path: 'sub' -> 'sub'
+[   0.014][d][global] user path: 'subtitles' -> 'subtitles'
+[   0.014][d][global] user path: 'subs' -> 'subs'
+[   0.014][d][global] config path: 'sub' -/-> '/home/bloc67/.config/mpv/sub'
+[   0.014][d][global] config path: 'sub' -/-> '/home/bloc67/.mpv/sub'
+[   0.014][d][global] config path: 'sub' -/-> '/etc/mpv/sub'
+[   0.014][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.014][d][modernx] osc_init
+[   0.015][v][cplayer] Running hook: auto_profiles/on_preloaded
+[   0.015][v][mkv] select track 0
+[   0.015][v][mkv] select track 1
+[   0.015][v][mkv] select track 3
+[   0.015][i][cplayer]  (+) Video --vid=1 (*) (h264 1920x1080 24.000fps)
+[   0.015][i][cplayer]  (+) Audio --aid=1 --alang=fr (*) 'French' (eac3 6ch 48000Hz)
+[   0.015][i][cplayer]      Audio --aid=2 --alang=en 'English' (eac3 6ch 48000Hz)
+[   0.015][i][cplayer]  (+) Subs  --sid=1 --slang=fr (*) (f) 'French (Forced)' (subrip)
+[   0.015][i][cplayer]      Subs  --sid=2 --slang=fr 'French' (subrip)
+[   0.015][i][cplayer]      Subs  --sid=3 --slang=en 'English (SDH)' (subrip)
+[   0.015][v][vo/gpu] Probing for best GPU context.
+[   0.015][v][vo/gpu/opengl] Initializing GPU context 'wayland'
+[   0.015][v][vo/gpu/opengl] Initializing GPU context 'x11egl'
+[   0.015][v][vo/gpu/x11] X11 opening display: :0
+[   0.016][d][vo/gpu/x11] X11 running at 1920x1080 (":0" => local display)
+[   0.016][d][vo/gpu/x11] Detected wm supports NetWM.
+[   0.016][d][vo/gpu/x11] Detected wm supports STICKY state.
+[   0.016][d][vo/gpu/x11] Detected wm supports FULLSCREEN state.
+[   0.016][d][vo/gpu/x11] Detected wm supports ABOVE state.
+[   0.016][d][vo/gpu/x11] Detected wm supports BELOW state.
+[   0.016][v][vo/gpu/x11] Display 0 (HDMI-0): [0, 0, 1920, 1080] @ 60.000000 FPS
+[   0.016][v][vo/gpu/x11] Current display FPS: 60.000000
+[   0.026][v][vo/gpu/opengl] EGL_VERSION=1.5
+[   0.026][v][vo/gpu/opengl] EGL_VENDOR=NVIDIA
+[   0.026][v][vo/gpu/opengl] EGL_CLIENT_APIS=OpenGL_ES OpenGL
+[   0.026][v][vo/gpu/opengl] Trying to create Desktop OpenGL context.
+[   0.026][d][vo/gpu/opengl] Chosen EGLConfig:
+[   0.026][d][vo/gpu/opengl]   EGL_CONFIG_ID=0x28
+[   0.026][d][vo/gpu/opengl]   EGL_RED_SIZE=0x8
+[   0.026][d][vo/gpu/opengl]   EGL_GREEN_SIZE=0x8
+[   0.026][d][vo/gpu/opengl]   EGL_BLUE_SIZE=0x8
+[   0.026][d][vo/gpu/opengl]   EGL_ALPHA_SIZE=0x0
+[   0.026][d][vo/gpu/opengl]   EGL_COLOR_BUFFER_TYPE=0x308e
+[   0.026][d][vo/gpu/opengl]   EGL_CONFIG_CAVEAT=0x3038
+[   0.026][d][vo/gpu/opengl]   EGL_CONFORMANT=0x4d
+[   0.026][d][vo/gpu/opengl]   EGL_NATIVE_VISUAL_ID=0x2b
+[   0.030][v][vo/gpu/opengl] Choosing visual EGL config 0x28, visual ID 0x2b
+[   0.030][v][vo/gpu/x11] The XPresent extension was found.
+[   0.030][v][vo/gpu/x11] XPresent disabled.
+[   0.252][v][vo/gpu/opengl] GL_VERSION='4.4.0 NVIDIA 535.104.05'
+[   0.252][v][vo/gpu/opengl] Detected desktop OpenGL 4.4.
+[   0.252][v][vo/gpu/opengl] GL_VENDOR='NVIDIA Corporation'
+[   0.252][v][vo/gpu/opengl] GL_RENDERER='NVIDIA GeForce RTX 2060/PCIe/SSE2'
+[   0.252][v][vo/gpu/opengl] GL_SHADING_LANGUAGE_VERSION='4.40 NVIDIA via Cg compiler'
+[   0.252][d][vo/gpu/opengl] Combined OpenGL extensions string:
+[   0.252][d][vo/gpu/opengl] EGL_EXT_buffer_age EGL_EXT_client_sync EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_MESA_image_dma_buf_export EGL_EXT_output_base EGL_EXT_stream_acquire_mode EGL_EXT_sync_reuse EGL_IMG_context_priority EGL_KHR_config_attribs EGL_KHR_create_context_no_error EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_partial_update EGL_KHR_swap_buffers_with_damage EGL_KHR_no_config_context EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_reusable_sync EGL_KHR_stream EGL_KHR_stream_attrib EGL_KHR_stream_consumer_gltexture EGL_KHR_stream_cross_process_fd EGL_KHR_stream_fifo EGL_KHR_stream_producer_eglsurface EGL_KHR_surfaceless_context EGL_KHR_wait_sync EGL_NV_nvrm_fence_sync EGL_NV_post_sub_buffer EGL_NV_quadruple_buffer EGL_NV_stream_consumer_eglimage EGL_NV_stream_cross_display EGL_NV_stream_cross_object EGL_NV_stream_cross_process EGL_NV_stream_cross_system EGL_NV_stream_dma EGL_NV_stream_flush EGL_NV_stream_metadata EGL_NV_stream_remote EGL_NV_stream_reset EGL_NV_stream_socket EGL_NV_stream_socket_inet EGL_NV_stream_socket_unix EGL_NV_stream_sync EGL_NV_stream_fifo_next EGL_NV_stream_fifo_synchronous EGL_NV_stream_consumer_gltexture_yuv EGL_NV_stream_attrib EGL_NV_stream_origin EGL_NV_system_time EGL_NV_output_drm_flip_event EGL_NV_triple_buffer EGL_NV_robustness_video_memory_purge EGL_EXT_present_opaque EGL_WL_bind_wayland_display EGL_WL_wayland_eglstream GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_EGL_image_storage GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_EGL_image GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+[   0.252][v][vo/gpu/opengl] Loaded extension GL_KHR_debug.
+[   0.252][d][vo/gpu/opengl] Texture formats:
+[   0.252][d][vo/gpu/opengl]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   0.252][d][vo/gpu/opengl]   r8         1*unorm   1B    LF CR ST {8}
+[   0.252][d][vo/gpu/opengl]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   0.252][d][vo/gpu/opengl]   rgb8       3*unorm   3B    LF CR ST {8 8 8}
+[   0.252][d][vo/gpu/opengl]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.252][d][vo/gpu/opengl]   r16        1*unorm   2B    LF CR ST {16}
+[   0.252][d][vo/gpu/opengl]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   0.252][d][vo/gpu/opengl]   rgb16      3*unorm   6B    LF CR ST {16 16 16}
+[   0.252][d][vo/gpu/opengl]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.252][d][vo/gpu/opengl]   r8ui       1*uint    1B       CR ST {8}
+[   0.252][d][vo/gpu/opengl]   rg8ui      2*uint    2B       CR ST {8 8}
+[   0.252][d][vo/gpu/opengl]   rgb8ui     3*uint    3B          ST {8 8 8}
+[   0.252][d][vo/gpu/opengl]   rgba8ui    4*uint    4B       CR ST {8 8 8 8}
+[   0.252][d][vo/gpu/opengl]   r16ui      1*uint    2B       CR ST {16}
+[   0.252][d][vo/gpu/opengl]   rg16ui     2*uint    4B       CR ST {16 16}
+[   0.252][d][vo/gpu/opengl]   rgb16ui    3*uint    6B          ST {16 16 16}
+[   0.252][d][vo/gpu/opengl]   rgba16ui   4*uint    8B       CR ST {16 16 16 16}
+[   0.252][d][vo/gpu/opengl]   r16f       1*float   4B    LF CR ST {32/16}
+[   0.252][d][vo/gpu/opengl]   rg16f      2*float   8B    LF CR ST {32/16 32/16}
+[   0.252][d][vo/gpu/opengl]   rgb16f     3*float  12B    LF CR ST {32/16 32/16 32/16}
+[   0.252][d][vo/gpu/opengl]   rgba16f    4*float  16B    LF CR ST {32/16 32/16 32/16 32/16}
+[   0.252][d][vo/gpu/opengl]   r32f       1*float   4B    LF CR ST {32}
+[   0.252][d][vo/gpu/opengl]   rg32f      2*float   8B    LF CR ST {32 32}
+[   0.252][d][vo/gpu/opengl]   rgb32f     3*float  12B    LF CR ST {32 32 32}
+[   0.252][d][vo/gpu/opengl]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   0.252][d][vo/gpu/opengl]   rgb10_a2   4*unorm   4B    LF CR ST {0/10 0/10 0/10 0/2}
+[   0.252][d][vo/gpu/opengl]   rgba12     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.252][d][vo/gpu/opengl]   rgb10      3*unorm   6B    LF CR ST {16/10 16/10 16/10}
+[   0.252][d][vo/gpu/opengl]   rgb565     3*unorm   2B    LF    ST {0/8 0/8 0/8}
+[   0.252][d][vo/gpu/opengl]  LA = LUMINANCE_ALPHA hack format
+[   0.252][d][vo/gpu/opengl]  LF = linear filterable
+[   0.252][d][vo/gpu/opengl]  CR = can be used for render targets
+[   0.252][d][vo/gpu/opengl]  ST = can be used for storable images
+[   0.252][d][vo/gpu/opengl] Image formats:
+[   0.252][d][vo/gpu/opengl]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.252][d][vo/gpu/opengl]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.252][d][vo/gpu/opengl]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   0.252][d][vo/gpu/opengl]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   0.252][d][vo/gpu/opengl]   uyvy422
+[   0.252][d][vo/gpu/opengl]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.252][d][vo/gpu/opengl]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.252][d][vo/gpu/opengl]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   0.252][d][vo/gpu/opengl]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.252][d][vo/gpu/opengl]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   0.252][d][vo/gpu/opengl]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   0.252][d][vo/gpu/opengl]   bgr24 => 1 planes 1x1 8/0 [rgb8] (bgr) [unorm]
+[   0.252][d][vo/gpu/opengl]   rgb24 => 1 planes 1x1 8/0 [rgb8] (rgb) [unorm]
+[   0.252][d][vo/gpu/opengl]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   0.252][d][vo/gpu/opengl]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.252][d][vo/gpu/opengl]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   0.252][d][vo/gpu/opengl]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   0.252][d][vo/gpu/opengl]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   0.252][d][vo/gpu/opengl]   rgb565 => 1 planes 1x1 0/0 [rgb565] (rgb) [unknown]
+[   0.252][d][vo/gpu/opengl]   pal8
+[   0.252][d][vo/gpu/opengl]   vdpau
+[   0.252][d][vo/gpu/opengl]   d3d11
+[   0.252][d][vo/gpu/opengl]   dxva2_vld
+[   0.252][d][vo/gpu/opengl]   mmal
+[   0.252][d][vo/gpu/opengl]   mediacodec
+[   0.252][d][vo/gpu/opengl]   cuda
+[   0.252][d][vo/gpu/opengl]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   0.252][d][vo/gpu/opengl]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   0.252][d][vo/gpu/opengl]   grayaf32 => 2 planes 1x1 32/0 [r16f/r16f] (r/a) [float]
+[   0.252][d][vo/gpu/opengl]   yuv444pf => 3 planes 1x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.252][d][vo/gpu/opengl]   yuva444pf => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.252][d][vo/gpu/opengl]   yuv420pf => 3 planes 2x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.252][d][vo/gpu/opengl]   yuva420pf => 4 planes 2x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.252][d][vo/gpu/opengl]   yuv422pf => 3 planes 2x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.252][d][vo/gpu/opengl]   yuva422pf => 4 planes 2x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.253][d][vo/gpu/opengl]   yuv440pf => 3 planes 1x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.253][d][vo/gpu/opengl]   yuva440pf => 4 planes 1x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.253][d][vo/gpu/opengl]   yuv410pf => 3 planes 4x4 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.253][d][vo/gpu/opengl]   yuva410pf => 4 planes 4x4 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.253][d][vo/gpu/opengl]   yuv411pf => 3 planes 4x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.253][d][vo/gpu/opengl]   yuva411pf => 4 planes 4x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.253][d][vo/gpu/opengl]   rgb30 => 1 planes 1x1 10/0 [rgb10_a2] (bgr) [unknown]
+[   0.253][d][vo/gpu/opengl]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   vdpau_output
+[   0.253][d][vo/gpu/opengl]   vaapi
+[   0.253][d][vo/gpu/opengl]   videotoolbox
+[   0.253][d][vo/gpu/opengl]   vulkan
+[   0.253][d][vo/gpu/opengl]   drm_prime
+[   0.253][d][vo/gpu/opengl]   yuyv422
+[   0.253][d][vo/gpu/opengl]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   monow
+[   0.253][d][vo/gpu/opengl]   monob
+[   0.253][d][vo/gpu/opengl]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   uyyvyy411
+[   0.253][d][vo/gpu/opengl]   bgr8
+[   0.253][d][vo/gpu/opengl]   bgr4
+[   0.253][d][vo/gpu/opengl]   bgr4_byte
+[   0.253][d][vo/gpu/opengl]   rgb8
+[   0.253][d][vo/gpu/opengl]   rgb4
+[   0.253][d][vo/gpu/opengl]   rgb4_byte
+[   0.253][d][vo/gpu/opengl]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.253][d][vo/gpu/opengl]   gray16be
+[   0.253][d][vo/gpu/opengl]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   rgb48be
+[   0.253][d][vo/gpu/opengl]   rgb48 => 1 planes 1x1 16/0 [rgb16] (rgb) [unorm]
+[   0.253][d][vo/gpu/opengl]   rgb565be
+[   0.253][d][vo/gpu/opengl]   rgb555be
+[   0.253][d][vo/gpu/opengl]   rgb555
+[   0.253][d][vo/gpu/opengl]   bgr565be
+[   0.253][d][vo/gpu/opengl]   bgr565
+[   0.253][d][vo/gpu/opengl]   bgr555be
+[   0.253][d][vo/gpu/opengl]   bgr555
+[   0.253][d][vo/gpu/opengl]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv420p16be
+[   0.253][d][vo/gpu/opengl]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv422p16be
+[   0.253][d][vo/gpu/opengl]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv444p16be
+[   0.253][d][vo/gpu/opengl]   rgb444
+[   0.253][d][vo/gpu/opengl]   rgb444be
+[   0.253][d][vo/gpu/opengl]   bgr444
+[   0.253][d][vo/gpu/opengl]   bgr444be
+[   0.253][d][vo/gpu/opengl]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   0.253][d][vo/gpu/opengl]   bgr48be
+[   0.253][d][vo/gpu/opengl]   bgr48 => 1 planes 1x1 16/0 [rgb16] (bgr) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv420p9be
+[   0.253][d][vo/gpu/opengl]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv420p10be
+[   0.253][d][vo/gpu/opengl]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv422p10be
+[   0.253][d][vo/gpu/opengl]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv444p9be
+[   0.253][d][vo/gpu/opengl]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv444p10be
+[   0.253][d][vo/gpu/opengl]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv422p9be
+[   0.253][d][vo/gpu/opengl]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp9be
+[   0.253][d][vo/gpu/opengl]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp10be
+[   0.253][d][vo/gpu/opengl]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp16be
+[   0.253][d][vo/gpu/opengl]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva420p9be
+[   0.253][d][vo/gpu/opengl]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva422p9be
+[   0.253][d][vo/gpu/opengl]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva444p9be
+[   0.253][d][vo/gpu/opengl]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva420p10be
+[   0.253][d][vo/gpu/opengl]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva422p10be
+[   0.253][d][vo/gpu/opengl]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva444p10be
+[   0.253][d][vo/gpu/opengl]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva420p16be
+[   0.253][d][vo/gpu/opengl]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva422p16be
+[   0.253][d][vo/gpu/opengl]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva444p16be
+[   0.253][d][vo/gpu/opengl]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   xyz12 => 1 planes 1x1 16/4 [rgb16] (rgb) [unorm]
+[   0.253][d][vo/gpu/opengl]   xyz12be
+[   0.253][d][vo/gpu/opengl]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   nv20be
+[   0.253][d][vo/gpu/opengl]   rgba64be
+[   0.253][d][vo/gpu/opengl]   bgra64be
+[   0.253][d][vo/gpu/opengl]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   0.253][d][vo/gpu/opengl]   yvyu422
+[   0.253][d][vo/gpu/opengl]   ya16be
+[   0.253][d][vo/gpu/opengl]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrap16be
+[   0.253][d][vo/gpu/opengl]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   qsv
+[   0.253][d][vo/gpu/opengl]   d3d11va_vld
+[   0.253][d][vo/gpu/opengl]   yuv420p12be
+[   0.253][d][vo/gpu/opengl]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv420p14be
+[   0.253][d][vo/gpu/opengl]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv422p12be
+[   0.253][d][vo/gpu/opengl]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv422p14be
+[   0.253][d][vo/gpu/opengl]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv444p12be
+[   0.253][d][vo/gpu/opengl]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv444p14be
+[   0.253][d][vo/gpu/opengl]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp12be
+[   0.253][d][vo/gpu/opengl]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrp14be
+[   0.253][d][vo/gpu/opengl]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   bayer_bggr8
+[   0.253][d][vo/gpu/opengl]   bayer_rggb8
+[   0.253][d][vo/gpu/opengl]   bayer_gbrg8
+[   0.253][d][vo/gpu/opengl]   bayer_grbg8
+[   0.253][d][vo/gpu/opengl]   bayer_bggr16
+[   0.253][d][vo/gpu/opengl]   bayer_bggr16be
+[   0.253][d][vo/gpu/opengl]   bayer_rggb16
+[   0.253][d][vo/gpu/opengl]   bayer_rggb16be
+[   0.253][d][vo/gpu/opengl]   bayer_gbrg16
+[   0.253][d][vo/gpu/opengl]   bayer_gbrg16be
+[   0.253][d][vo/gpu/opengl]   bayer_grbg16
+[   0.253][d][vo/gpu/opengl]   bayer_grbg16be
+[   0.253][d][vo/gpu/opengl]   xvmc
+[   0.253][d][vo/gpu/opengl]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv440p10be
+[   0.253][d][vo/gpu/opengl]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuv440p12be
+[   0.253][d][vo/gpu/opengl]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   0.253][d][vo/gpu/opengl]   ayuv64be
+[   0.253][d][vo/gpu/opengl]   p010be
+[   0.253][d][vo/gpu/opengl]   gbrap12be
+[   0.253][d][vo/gpu/opengl]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrap10be
+[   0.253][d][vo/gpu/opengl]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   gray12be
+[   0.253][d][vo/gpu/opengl]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gray10be
+[   0.253][d][vo/gpu/opengl]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   0.253][d][vo/gpu/opengl]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   p016be
+[   0.253][d][vo/gpu/opengl]   gray9be
+[   0.253][d][vo/gpu/opengl]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrpf32be
+[   0.253][d][vo/gpu/opengl]   gbrpf32 => 3 planes 1x1 32/0 [r16f/r16f/r16f] (g/b/r) [float]
+[   0.253][d][vo/gpu/opengl]   gbrapf32be
+[   0.253][d][vo/gpu/opengl]   gbrapf32 => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (g/b/r/a) [float]
+[   0.253][d][vo/gpu/opengl]   opencl
+[   0.253][d][vo/gpu/opengl]   gray14be
+[   0.253][d][vo/gpu/opengl]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   0.253][d][vo/gpu/opengl]   grayf32be
+[   0.253][d][vo/gpu/opengl]   grayf32 => 1 planes 1x1 32/0 [r16f] (r) [float]
+[   0.253][d][vo/gpu/opengl]   yuva422p12be
+[   0.253][d][vo/gpu/opengl]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   yuva444p12be
+[   0.253][d][vo/gpu/opengl]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.253][d][vo/gpu/opengl]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.253][d][vo/gpu/opengl]   y210be
+[   0.253][d][vo/gpu/opengl]   y210
+[   0.253][d][vo/gpu/opengl]   x2rgb10be
+[   0.253][d][vo/gpu/opengl]   x2bgr10
+[   0.253][d][vo/gpu/opengl]   x2bgr10be
+[   0.253][d][vo/gpu/opengl]   p210be
+[   0.253][d][vo/gpu/opengl]   p210 => 2 planes 2x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   p410be
+[   0.253][d][vo/gpu/opengl]   p410 => 2 planes 1x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   p216be
+[   0.253][d][vo/gpu/opengl]   p216 => 2 planes 2x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   p416be
+[   0.253][d][vo/gpu/opengl]   p416 => 2 planes 1x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   vuya => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.253][d][vo/gpu/opengl]   rgbaf16be
+[   0.253][d][vo/gpu/opengl]   rgbaf16
+[   0.253][d][vo/gpu/opengl]   vuyx => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.253][d][vo/gpu/opengl]   p012 => 2 planes 2x2 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   p012be
+[   0.253][d][vo/gpu/opengl]   y212be
+[   0.253][d][vo/gpu/opengl]   y212
+[   0.253][d][vo/gpu/opengl]   xv30be
+[   0.253][d][vo/gpu/opengl]   xv30
+[   0.253][d][vo/gpu/opengl]   xv36be
+[   0.253][d][vo/gpu/opengl]   xv36 => 1 planes 1x1 16/4 [rgba16] (grb) [unorm]
+[   0.253][d][vo/gpu/opengl]   rgbf32be
+[   0.253][d][vo/gpu/opengl]   rgbf32
+[   0.253][d][vo/gpu/opengl]   rgbaf32be
+[   0.253][d][vo/gpu/opengl]   rgbaf32
+[   0.253][d][vo/gpu/opengl]   p212be
+[   0.253][d][vo/gpu/opengl]   p212 => 2 planes 2x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   p412be
+[   0.253][d][vo/gpu/opengl]   p412 => 2 planes 1x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.253][d][vo/gpu/opengl]   gbrap14be
+[   0.253][d][vo/gpu/opengl]   gbrap14 => 4 planes 1x1 16/-2 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.253][v][vo/gpu] Testing FBO format rgba16f
+[   0.253][d][vo/gpu] Resizing texture: 16x16
+[   0.253][v][vo/gpu] Using FBO format rgba16f.
+[   0.253][d][global] cache path: '' -> '/home/bloc67/.cache/mpv'
+[   0.253][v][vo/gpu] Assuming 60.000000 FPS for display sync.
+[   0.253][v][vd] Container reported FPS: 24.000000
+[   0.253][v][vd] Codec list:
+[   0.253][v][vd]     h264 - H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+[   0.253][v][vd]     h264_v4l2m2m (h264) - V4L2 mem2mem H.264 decoder wrapper
+[   0.253][v][vd]     h264_qsv (h264) - H264 video (Intel Quick Sync Video acceleration)
+[   0.253][v][vd]     h264_cuvid (h264) - Nvidia CUVID H264 decoder
+[   0.253][v][vd] Opening decoder h264
+[   0.253][v][vd] Looking at hwdec h264-nvdec...
+[   0.253][v][vo/gpu] Loading hwdec drivers for format: 'cuda'
+[   0.253][v][vo/gpu] Loading hwdec driver 'cuda'
+[   0.393][v][vd] Trying hardware decoding via h264-nvdec.
+[   0.394][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[   0.394][v][vd] Codec profile: High (0x64)
+[   0.395][v][vd] Requesting pixfmt 'cuda' from decoder.
+[   0.398][d][ffmpeg/video] h264: NVDEC capabilities:
+[   0.398][d][ffmpeg/video] h264: format supported: yes, max_mb_count: 65536
+[   0.398][d][ffmpeg/video] h264: min_width: 48, max_width: 4096
+[   0.398][d][ffmpeg/video] h264: min_height: 16, max_height: 4096
+[   0.410][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: cuda
+[   0.410][v][vd] Selected codec: H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+[   0.410][v][vf] User filter list:
+[   0.410][v][vf]   (empty)
+[   0.411][v][ad] Codec list:
+[   0.411][v][ad]     eac3 - ATSC A/52B (AC-3, E-AC-3)
+[   0.411][v][ad] Opening decoder eac3
+[   0.411][v][ad] Requesting 1 threads for decoding.
+[   0.411][v][ad] Selected codec: ATSC A/52B (AC-3, E-AC-3)
+[   0.411][v][user_filter_wrapper] Setting option 'graph' = 'pan=stereo|FL=1.0FC+0.907FL+0.907SL+0.907BL+0LFE|FR=1.0FC+0.907FR+0.907SR+0.907BR+0LFE' (flags = 0)
+[   0.412][v][af] User filter list:
+[   0.412][v][af]   lavfi (lavfi.00)
+[   0.412][d][global] config path: 'fonts' -> '/home/bloc67/.config/mpv/fonts'
+[   0.412][d][sub/ass] ASS library version: 0x1702000 (runtime 0x1702000)
+[   0.412][v][sub/ass] libass API version: 0x1702000
+[   0.412][v][sub/ass] libass source: commit: 0.17.2-0-gcbb48cc4f2f076300004b8b06a86bec55281d0c2-dirty
+[   0.412][v][sub/ass] Shaper: FriBidi 1.0.14 (SIMPLE) HarfBuzz-ng 8.5.0 (COMPLEX)
+[   0.412][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.config/mpv/subfont.ttf'
+[   0.412][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.mpv/subfont.ttf'
+[   0.412][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.412][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.config/mpv/fonts.conf'
+[   0.412][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.mpv/fonts.conf'
+[   0.412][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.412][v][sub/ass] Setting up fonts...
+[   0.413][v][sub/ass] Loading font file '/home/bloc67/.config/mpv/fonts/oscc.ttf'
+[   0.413][v][sub/ass] Loading font file '/home/bloc67/.config/mpv/fonts/Material-Design-Iconic-Font.ttf'
+[   0.413][v][sub/ass] Loading font file '/home/bloc67/.config/mpv/fonts/modernx-osc-icon.ttf'
+[   0.413][i][sub/ass] Error opening memory font 'oscc.ttf'
+[   0.417][v][sub/ass] Using font provider fontconfig
+[   0.417][v][sub/ass] Done.
+[   0.417][v][cplayer] Starting playback...
+[   0.417][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[   0.417][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[   0.417][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[   0.417][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[   0.417][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[   0.417][v][mkv] queuing seek to 20.292000
+[   0.417][v][mkv] execute seek (to 20.292000 flags 32)
+[   0.417][v][file] stream level seek from 268148 to 6796331
+[   0.417][v][mkv] seek done
+[   0.417][v][cplayer] hr-seek, skipping to 20.292000
+[   0.418][v][af] [in] 48000Hz 5.1(side) 6ch floatp
+[   0.418][v][af] [lavfi] 48000Hz 5.1(side) 6ch floatp
+[   0.418][d][ffmpeg] mpv_src_in0: tb:1/48000 samplefmt:fltp samplerate:48000 chlayout:5.1(side)
+[   0.418][d][ffmpeg] Parsed_pan_0: o0 = 0.907 i0 + 0 i1 + 1 i2 + 0 i3 + 0.907 i4 + 0 i5
+[   0.418][d][ffmpeg] Parsed_pan_0: o1 = 0 i0 + 0.907 i1 + 1 i2 + 0 i3 + 0 i4 + 0.907 i5
+[   0.418][d][lavfi] Filter graph:
+[   0.418][d][lavfi]                                                       +--------------+
+[   0.418][d][lavfi] mpv_src_in0:default--[48000Hz fltp:5.1(side)]--default| Parsed_pan_0 |default--[48000Hz fltp:stereo]--mpv_sink_out0:default
+[   0.419][d][lavfi]                                                       |    (pan)     |
+[   0.419][d][lavfi]                                                       +--------------+
+[   0.419][d][lavfi] 
+[   0.419][d][lavfi]                                                     +---------------+
+[   0.419][d][lavfi] Parsed_pan_0:default--[48000Hz fltp:stereo]--default| mpv_sink_out0 |
+[   0.419][d][lavfi]                                                     | (abuffersink) |
+[   0.419][d][lavfi]                                                     +---------------+
+[   0.419][d][lavfi] 
+[   0.419][d][lavfi] +-------------+
+[   0.419][d][lavfi] | mpv_src_in0 |default--[48000Hz fltp:5.1(side)]--Parsed_pan_0:default
+[   0.419][d][lavfi] |  (abuffer)  |
+[   0.419][d][lavfi] +-------------+
+[   0.419][d][lavfi] 
+[   0.419][d][lavfi] 
+[   0.419][v][af] [userspeed] 48000Hz stereo 2ch floatp
+[   0.419][v][af] [userspeed] (disabled)
+[   0.419][v][af] [convert] 48000Hz stereo 2ch floatp
+[   0.425][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[   0.426][v][vd] Codec profile: High (0x64)
+[   0.426][v][vd] Requesting pixfmt 'cuda' from decoder.
+[   0.428][d][ffmpeg/video] h264: NVDEC capabilities:
+[   0.428][d][ffmpeg/video] h264: format supported: yes, max_mb_count: 65536
+[   0.428][d][ffmpeg/video] h264: min_width: 48, max_width: 4096
+[   0.428][d][ffmpeg/video] h264: min_height: 16, max_height: 4096
+[   0.439][d][ffmpeg/video] h264: Reinit context to 1920x1088, pix_fmt: cuda
+[   0.442][i][vd] Using hardware decoding (nvdec).
+[   0.442][v][vd] Decoder format: 1920x1080 cuda[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   0.442][v][vd] Using container aspect ratio.
+[   0.442][v][vf] [in] 1920x1080 cuda[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   0.442][v][vf] [userdeint] 1920x1080 cuda[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   0.442][v][vf] [userdeint] (disabled)
+[   0.442][v][vf] [autorotate] 1920x1080 cuda[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   0.442][v][vf] [autorotate] (disabled)
+[   0.442][v][vf] [convert] 1920x1080 cuda[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   0.442][v][vo/gpu] Loading hwdec drivers for format: 'cuda'
+[   0.442][d][hwupload] looking at format cuda/nv12
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/yuv420p
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/yuva420p
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/yuv444p
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/p010
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/p016
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/yuv444p16
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/bgr0
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/rgb0
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/bgra
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/rgba
+[   0.442][d][hwupload]   supports: nv12 yuv420p yuva420p yuv444p p010 p016 yuv444p16 bgr0 rgb0 bgra rgba vulkan
+[   0.442][d][hwupload] looking at format cuda/vulkan
+[   0.442][d][hwupload]   supports vulkan (a hardware format)
+[   0.442][v][vf] [out] 1920x1080 cuda[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   0.442][d][global] config path: 'fonts' -> '/home/bloc67/.config/mpv/fonts'
+[   0.442][d][osd/libass] ASS library version: 0x1702000 (runtime 0x1702000)
+[   0.442][v][osd/libass] libass API version: 0x1702000
+[   0.442][v][osd/libass] libass source: commit: 0.17.2-0-gcbb48cc4f2f076300004b8b06a86bec55281d0c2-dirty
+[   0.442][v][osd/libass] Shaper: FriBidi 1.0.14 (SIMPLE) HarfBuzz-ng 8.5.0 (COMPLEX)
+[   0.442][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.config/mpv/subfont.ttf'
+[   0.442][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.mpv/subfont.ttf'
+[   0.442][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.442][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.config/mpv/fonts.conf'
+[   0.442][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.mpv/fonts.conf'
+[   0.442][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.442][v][osd/libass] Setting up fonts...
+[   0.444][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/oscc.ttf'
+[   0.444][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/Material-Design-Iconic-Font.ttf'
+[   0.444][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/modernx-osc-icon.ttf'
+[   0.444][i][osd/libass] Error opening memory font 'oscc.ttf'
+[   0.448][v][osd/libass] Using font provider fontconfig
+[   0.448][v][osd/libass] Done.
+[   0.448][v][ao] Trying audio driver 'pipewire'
+[   0.448][v][ao/pipewire] requested format: 48000 Hz, stereo channels, floatp
+[   0.448][v][ao/pipewire] Headers version: 1.0.6
+[   0.448][v][ao/pipewire] Library version: 1.0.7
+[   0.451][v][ao/pipewire] Core user: bloc67
+[   0.451][v][ao/pipewire] Core host: manjaro
+[   0.451][v][ao/pipewire] Core version: 1.0.3
+[   0.451][v][ao/pipewire] Core name: pipewire-0
+[   0.451][d][ao/pipewire] Stream state changed: old_state=unconnected state=connecting error=(null)
+[   0.451][v][ao/pipewire] using soft-buffer of 9600 samples.
+[   0.451][i][cplayer] AO: [pipewire] 48000Hz stereo 2ch floatp
+[   0.451][v][cplayer] AO: Description: PipeWire audio output
+[   0.451][v][af] [convert] (disabled)
+[   0.451][v][af] [out] 48000Hz stereo 2ch floatp
+[   0.451][d][ao/pipewire] Stream state changed: old_state=connecting state=paused error=(null)
+[   0.459][v][cplayer] Set property: sub-pos=78 -> 1
+[   0.464][d][cplayer] Run command: define-section, flags=64, args=[name="input_modernx", contents="f12 script-binding modernx/config-save\n", flags="default"]
+[   0.464][d][cplayer] Run command: enable-section, flags=64, args=[name="input_modernx", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.466][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_modernx", contents="", flags="force"]
+[   0.466][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_modernx", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.488][d][modernx] osc_init
+[   0.488][i][cplayer] VO: [gpu] 1920x1080 cuda[nv12]
+[   0.488][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   0.488][v][vo/gpu] reconfig to 1920x1080 cuda[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x1080+0+0
+[   0.488][d][vo/gpu] max content size: 1920x1080
+[   0.488][d][vo/gpu] monitor size: 1920x1080
+[   0.489][v][vo/gpu/x11] not waiting for MapNotify
+[   0.489][v][vo/gpu] Resize: 1920x1080
+[   0.489][v][vo/gpu] Window size: 1920x1080 (Borders: l=0 t=0 r=0 b=0)
+[   0.489][v][vo/gpu] Video source: 1920x1080 (1:1)
+[   0.489][v][vo/gpu] Video display: (0, 0) 1920x1080 -> (0, 0) 1920x1080
+[   0.489][v][vo/gpu] Video scale: 1.000000/1.000000
+[   0.489][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.489][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.489][v][vo/gpu] Reported display depth: 8
+[   0.490][v][vo/gpu] Testing FBO format rgba16f
+[   0.490][d][vo/gpu] Resizing texture: 16x16
+[   0.490][v][vo/gpu] Using FBO format rgba16f.
+[   0.491][d][vo/gpu] Resizing texture: 1920x1080
+[   0.491][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[   0.491][d][vo/gpu] Trying to load shader from disk...
+[   0.492][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.493][d][vo/gpu] Resizing texture: 1920x1080
+[   0.493][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[   0.493][d][vo/gpu] Trying to load shader from disk...
+[   0.494][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.494][d][vo/gpu] Resizing texture: 1920x1080
+[   0.494][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[   0.494][d][vo/gpu] Trying to load shader from disk...
+[   0.494][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.495][v][vo/gpu] Dither to 8.
+[   0.512][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[   0.512][d][vo/gpu] Trying to load shader from disk...
+[   0.512][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.522][v][cplayer] first video frame after restart shown
+[   0.524][d][vo/gpu] Resizing texture: 1920x1080
+[   0.524][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[   0.524][d][vo/gpu] Trying to load shader from disk...
+[   0.524][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.525][v][cplayer] audio ready
+[   0.525][d][cplayer] starting video playback
+[   0.525][v][cplayer] starting audio playback
+[   0.525][v][cplayer] playback restart complete @ 20.292000, audio=playing, video=playing
+[   0.526][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[   0.536][v][vo/gpu/x11] Disabling screensaver.
+[   0.537][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.538][v][osd/libass] fontselect: (sans-serif, 400, 0) -> /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf, 0, NotoSans
+[   0.547][v][osd/libass] fontselect: (modernx-osc-icon, 400, 0) -> modernx-osc-icon, 0, modernx-osc-icon
+[   0.548][v][vo/gpu] Reallocating OSD texture to 2048x1024.
+[   0.548][d][modernx] osc_init
+[   0.549][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[   0.549][d][vo/gpu] Trying to load shader from disk...
+[   0.549][d][vo/gpu/opengl] Loading binary program succeeded.
+[   1.170][v][cplayer] Set property: sub-pos=87 -> 1
+[   1.170][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   1.581][v][cplayer] Set property: sub-pos=78 -> 1
+[   1.581][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   3.706][d][cplayer] Run command: begin-vo-dragging, flags=73, args=[]
+[   3.748][d][cplayer] Run command: cycle, flags=73, args=[name="fullscreen", value="1.000000"]
+[   3.748][v][cplayer] Set property: fullscreen -> 1
+[   3.748][v][vo/gpu] Resize: 1920x1080
+[   3.748][v][vo/gpu] Window size: 1920x1080 (Borders: l=0 t=0 r=0 b=0)
+[   3.748][v][vo/gpu] Video source: 1920x1080 (1:1)
+[   3.748][v][vo/gpu] Video display: (0, 0) 1920x1080 -> (0, 0) 1920x1080
+[   3.748][v][vo/gpu] Video scale: 1.000000/1.000000
+[   3.748][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   3.748][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   3.748][v][vo/gpu] Reported display depth: 8
+[   3.753][d][modernx] osc_init
+[   4.494][v][cplayer] Set property: sub-pos=87 -> 1
+[   4.494][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   4.540][v][cplayer] Set property: sub-pos=78 -> 1
+[   4.540][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   6.296][v][cplayer] Set property: sub-pos=87 -> 1
+[   6.296][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   7.956][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/config-save"]
+[   7.999][d][global] config path: 'fonts' -> '/home/bloc67/.config/mpv/fonts'
+[   7.999][d][osd/libass] ASS library version: 0x1702000 (runtime 0x1702000)
+[   7.999][v][osd/libass] libass API version: 0x1702000
+[   7.999][v][osd/libass] libass source: commit: 0.17.2-0-gcbb48cc4f2f076300004b8b06a86bec55281d0c2-dirty
+[   7.999][v][osd/libass] Shaper: FriBidi 1.0.14 (SIMPLE) HarfBuzz-ng 8.5.0 (COMPLEX)
+[   7.999][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.config/mpv/subfont.ttf'
+[   7.999][d][global] config path: 'subfont.ttf' -/-> '/home/bloc67/.mpv/subfont.ttf'
+[   7.999][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   7.999][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.config/mpv/fonts.conf'
+[   7.999][d][global] config path: 'fonts.conf' -/-> '/home/bloc67/.mpv/fonts.conf'
+[   7.999][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   7.999][v][osd/libass] Setting up fonts...
+[   8.000][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/oscc.ttf'
+[   8.001][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/Material-Design-Iconic-Font.ttf'
+[   8.001][v][osd/libass] Loading font file '/home/bloc67/.config/mpv/fonts/modernx-osc-icon.ttf'
+[   8.001][i][osd/libass] Error opening memory font 'oscc.ttf'
+[   8.005][v][osd/libass] Using font provider fontconfig
+[   8.005][v][osd/libass] Done.
+[   8.006][v][osd/libass] fontselect: (sans-serif, 400, 0) -> /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf, 0, NotoSans
+[   8.006][v][vo/gpu] Reallocating OSD texture to 1024x128.
+[   8.081][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/config-save"]
+[   9.375][v][cplayer] Set property: sub-pos=78 -> 1
+[   9.375][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   9.623][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/__keybinding2"]
+[   9.837][v][cplayer] Set property: sub-pos=87 -> 1
+[   9.837][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  10.123][d][cplayer] Run command: begin-vo-dragging, flags=73, args=[]
+[  10.290][d][cplayer] Run command: cycle, flags=73, args=[name="fullscreen", value="1.000000"]
+[  10.290][v][cplayer] Set property: fullscreen -> 1
+[  10.290][d][modernx] osc_init
+[  10.331][v][vo/gpu] Resize: 1920x1080
+[  10.331][v][vo/gpu] Window size: 1920x1080 (Borders: l=0 t=0 r=0 b=0)
+[  10.331][v][vo/gpu] Video source: 1920x1080 (1:1)
+[  10.331][v][vo/gpu] Video display: (0, 0) 1920x1080 -> (0, 0) 1920x1080
+[  10.331][v][vo/gpu] Video scale: 1.000000/1.000000
+[  10.331][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[  10.331][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[  10.331][v][vo/gpu] Reported display depth: 8
+[  10.386][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/__keybinding4"]
+[  10.386][v][vo/gpu] Resize: 958x337
+[  10.386][v][vo/gpu] Window size: 958x337 (Borders: l=0 t=0 r=0 b=0)
+[  10.386][v][vo/gpu] Video source: 1920x1080 (1:1)
+[  10.386][v][vo/gpu] Video display: (0, 0) 1920x1080 -> (179, 0) 599x337
+[  10.386][v][vo/gpu] Video scale: 0.311979/0.312037
+[  10.386][v][vo/gpu] OSD borders: l=179 t=0 r=180 b=0
+[  10.386][v][vo/gpu] Video borders: l=179 t=0 r=180 b=0
+[  10.386][v][vo/gpu] Reported display depth: 8
+[  10.387][d][modernx] osc_init
+[  10.387][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[  10.387][d][vo/gpu] Trying to load shader from disk...
+[  10.387][d][vo/gpu/opengl] Loading binary program succeeded.
+[  10.387][d][vo/gpu] Resizing texture: 1920x337
+[  10.388][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[  10.388][d][vo/gpu] Trying to load shader from disk...
+[  10.388][d][vo/gpu/opengl] Loading binary program succeeded.
+[  10.388][d][vo/gpu] Resizing texture: 599x337
+[  10.402][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[  10.402][d][vo/gpu] Trying to load shader from disk...
+[  10.403][d][vo/gpu/opengl] Loading binary program succeeded.
+[  10.403][d][global] user path: '/home/bloc67/.cache/mpv' -> '/home/bloc67/.cache/mpv'
+[  10.403][d][vo/gpu] Trying to load shader from disk...
+[  10.403][d][vo/gpu/opengl] Loading binary program succeeded.
+[  11.290][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/__keybinding2"]
+[  11.540][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/__keybinding4"]
+[  15.168][v][cplayer] Set property: sub-pos=78 -> 1
+[  15.168][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  16.040][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/__keybinding2"]
+[  16.123][d][cplayer] Run command: script-binding, flags=73, args=[name="modernx/__keybinding4"]
+[  16.283][v][cplayer] Set property: sub-pos=87 -> 1
+[  16.284][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  17.040][d][cplayer] Run command: quit, flags=73, args=[code="0"]
+[  17.040][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[  17.040][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[  17.040][i][cplayer] Saving state.
+[  17.041][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[  17.041][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[  17.041][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[  17.041][d][global] state path: 'watch_later' -> '/home/bloc67/.local/state/mpv/watch_later'
+[  17.041][v][cplayer] EOF code: 5  
+[  17.041][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[  17.041][d][ad] Uninit decoder.
+[  17.042][d][vd] Uninit decoder.
+[  17.042][d][cplayer] Terminating demuxers...
+[  17.043][d][cplayer] Done terminating demuxers.
+[  17.081][v][vo/gpu/x11] Enabling screensaver.
+[  17.082][v][cplayer] finished playback, success (reason 3)
+[  17.082][i][cplayer] Exiting... (Quit)
+[  17.082][d][mpv] Exiting...
+[  17.082][d][channelmixer] Exiting...
+[  17.082][d][reload] Exiting...
+[  17.082][d][cycle_denoise] Exiting...
+[  17.082][d][ytdl_hook] Exiting...
+[  17.082][d][console] Exiting...
+[  17.082][d][auto_profiles] Exiting...
+[  17.082][d][stats] Exiting...
+[  17.083][d][modernx] Exiting...
+[  17.122][d][vo/gpu] flushing shader cache
+[  17.123][d][vo/gpu/x11] uninit ...

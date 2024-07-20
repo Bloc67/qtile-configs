@@ -10,6 +10,21 @@ mag=$'\e[1;35m'
 cyn=$'\e[1;36m'
 end=$'\e[0m'
 
+echo "${yel}Adding Chaotic rep...${end}"
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+
+
+echo "add to /etc/pacman.conf..."
+echo " " | sudo tee -a /etc/pacman.conf
+echo "[chaotic-aur]" | sudo tee -a /etc/pacman.conf
+echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf
+echo "${yel}Done.${end}"
+echo "${grn}cat /etc/pacman.conf:${end}"
+cat /etc/pacman.conf
+
 echo "${yel}**************************"
 echo "Install programs for use with Qtile:"
 echo "--------------------------${end}"
@@ -50,9 +65,9 @@ echo "--------------------------${end}"
 read -p "copy over ${cyn}Qtile .config + autostart.sh ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        mkdir /home/bloc67/.config/qtile
-        cp autostart.sh /home/bloc67/.config/qtile/autostart.sh
-        cp config.py /home/bloc67/.config/qtile/config.py
+        mkdir -p -v /home/bloc67/.config/qtile
+        cp -f -v autostart.sh /home/bloc67/.config/qtile/autostart.sh
+        cp -f -v config.py /home/bloc67/.config/qtile/config.py
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}Qtile files{end}"
@@ -61,8 +76,8 @@ esac
 read -p "copy over ${cyn}MPV config files ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp -R mpv /home/bloc67/.config/
-        cp config.py /home/bloc67/.config/qtile/config.py
+        cp -f -v -R mpv /home/bloc67/.config/
+        cp -f -v config.py /home/bloc67/.config/qtile/config.py
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}MPV files{end}"
@@ -71,8 +86,8 @@ esac
 read -p "copy over ${cyn}Easyeffects presets ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp bass.json /home/bloc67/.config/easyeffects/output/bass.json
-        cp LoudnessEqualizer.json /home/bloc67/.config/easyeffects/output/LoudnessEqualizer.json
+        cp -f -v bass.json /home/bloc67/.config/easyeffects/output/bass.json
+        cp -f -v LoudnessEqualizer.json /home/bloc67/.config/easyeffects/output/LoudnessEqualizer.json
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}easyeffects files{end}"
@@ -81,30 +96,15 @@ esac
 read -p "copy over ${cyn}Rofi ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp -R rofi home/bloc67/.local/share/
-        mkdir home/bloc67/.config/rofi
-        cp config.rasi /home/bloc67/.config/rofi/config.rasi
+        cp -f -v -R rofi home/bloc67/.local/share/
+        mkdir -p -v home/bloc67/.config/rofi
+        cp -f -v config.rasi /home/bloc67/.config/rofi/config.rasi
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}Rofi files{end}"
     ;;
 esac
-
-echo "${yel}Adding Chaotic rep...${end}"
-sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
-sudo pacman-key --lsign-key 3056513887B78AEB
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
-
-
-echo "add to /etc/pacman.conf..."
-echo " " | sudo tee -a /etc/pacman.conf
-echo "[chaotic-aur]" | sudo tee -a /etc/pacman.conf
-echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf
-echo "${yel}Done.${end}"
-echo "${grn}cat /etc/pacman.conf:${end}"
-cat /etc/pacman.conf
 lxappearance
-xfce4-power-manager
+
 
 

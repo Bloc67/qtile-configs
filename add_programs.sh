@@ -29,7 +29,7 @@ echo "${yel}**************************"
 echo "Install programs for use with Qtile:"
 echo "--------------------------${end}"
 
-array=( fakeroot base-devel patch micro xfce4-power-manager lxappearance rofi qtile terminator arandr lv2-plugins git ttf-roboto xclip qt5-styleplugins materia-gtk-theme network-manager-applet easyeffects dejavu thorium ffmpeg mpv )
+array=( fakeroot base-devel patch micro xfce4-power-manager syncthing audacious lxappearance rofi qtile terminator arandr lv2-plugins git ttf-roboto xclip qt5-styleplugins materia-gtk-theme network-manager-applet easyeffects dejavu thorium ffmpeg mpv obsidian )
 for i in "${array[@]}"
     do
 #        read -p "Search for ${cyn}$i${end} (j/n)? " answer

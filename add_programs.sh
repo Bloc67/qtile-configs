@@ -50,9 +50,9 @@ echo "--------------------------${end}"
 read -p "copy over ${cyn}Qtile .config + autostart.sh ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        mkdir /home/bloc67/.config/qtile
-        cp autostart.sh /home/bloc67/.config/qtile/autostart.sh
-        cp config.py /home/bloc67/.config/qtile/config.py
+        mkdir $HOME/.config/qtile
+        cp autostart.sh $HOME/.config/qtile/autostart.sh
+        cp config.py $HOME/.config/qtile/config.py
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}Qtile files{end}"
@@ -61,8 +61,7 @@ esac
 read -p "copy over ${cyn}MPV config files ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp -R mpv /home/bloc67/.config/
-        cp config.py /home/bloc67/.config/qtile/config.py
+        cp -R mpv $HOME/.config/
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}MPV files{end}"
@@ -71,8 +70,8 @@ esac
 read -p "copy over ${cyn}Easyeffects presets ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp bass.json /home/bloc67/.config/easyeffects/output/bass.json
-        cp LoudnessEqualizer.json /home/bloc67/.config/easyeffects/output/LoudnessEqualizer.json
+        cp bass.json $HOME/.config/easyeffects/output/bass.json
+        cp LoudnessEqualizer.json $HOME/.config/easyeffects/output/LoudnessEqualizer.json
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}easyeffects files{end}"
@@ -81,16 +80,17 @@ esac
 read -p "copy over ${cyn}Rofi ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp -R rofi home/bloc67/.local/share/
-        mkdir home/bloc67/.config/rofi
-        cp config.rasi /home/bloc67/.config/rofi/config.rasi
+        cp -R rofi $HOME/.local/share/
+        mkdir $HOME/.config/rofi
+        cp config.rasi $HOME/.config/rofi/config.rasi
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}Rofi files{end}"
     ;;
 esac
 
+cp -R config/gtk-3.0 $HOME/.config/
+cp -R config/gtk-4.0 $HOME/.config/
+cp -R config/qt5ct $HOME/.config/
 lxappearance
-
-
 

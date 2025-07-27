@@ -14,7 +14,7 @@ echo "${yel}**************************"
 echo "Install programs for use with Qtile:"
 echo "--------------------------${end}"
 
-array=( fakeroot base-devel patch micro xfce4-power-manager lxappearance rofi qtile terminator arandr lv2-plugins git ttf-roboto xclip qt5-styleplugins materia-gtk-theme network-manager-applet easyeffects dejavu thorium ffmpeg mpv )
+array=( fakeroot base-devel patch xfce4-power-manager lxappearance rofi qtile terminator arandr calf mda lv2-plugins git ttf-roboto xclip qt5-styleplugins materia-gtk-theme network-manager-applet easyeffects dejavu thorium ffmpeg mpv )
 for i in "${array[@]}"
     do
 #        read -p "Search for ${cyn}$i${end} (j/n)? " answer
@@ -61,7 +61,8 @@ esac
 read -p "copy over ${cyn}MPV config files ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp -R mpv $HOME/.config/
+        mkdir $HOME/.config/mpv
+        cp -R mpv/* $HOME/.config/mpv/
     ;;
     * )
         echo "${red}Skipping${end} ${cyn}MPV files{end}"
@@ -80,7 +81,8 @@ esac
 read -p "copy over ${cyn}Rofi ${end} (j/n)? " answer
 case ${answer:0:1} in
     j|J )
-        cp -R rofi $HOME/.local/share/
+        mkdir $HOME/.local/share/rofi
+        cp -R rofi/* $HOME/.local/share/
         mkdir $HOME/.config/rofi
         cp config.rasi $HOME/.config/rofi/config.rasi
     ;;
@@ -89,8 +91,6 @@ case ${answer:0:1} in
     ;;
 esac
 
-cp -R config/gtk-3.0 $HOME/.config/
-cp -R config/gtk-4.0 $HOME/.config/
-cp -R config/qt5ct $HOME/.config/
+cp -R config/* $HOME/.config/
 lxappearance
 

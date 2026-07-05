@@ -13,8 +13,24 @@ end=$'\e[0m'
 echo "${yel}**************************"
 echo "Install programs for use with Qtile:"
 echo "--------------------------${end}"
-
-array=( xorg-xset xfce4-power-manager lxappearance rofi qtile terminator arandr calf mda lv2-plugins ttf-roboto xclip micro materia-gtk-theme network-manager-applet easyeffects dejavu thorium ffmpeg mpv rustdesk )
+echo "Auto installing..."
+array=( xorg-xset xfce4-power-manager lxappearance rofi qtile terminator arandr calf ttf-roboto xclip micro materia-gtk-theme network-manager-applet easyeffects ffmpeg mpv )
+for i in "${array[@]}"
+    do
+#        read -p "Search for ${cyn}$i${end} (j/n)? " answer
+#        case ${answer:0:1} in
+#            j|J )
+                yay -S $i --noconfirm
+                echo "${grn}***********************************${end}"
+                echo "${yel}***********************************${end}"
+#            ;;
+#            * )
+#                echo "${red}Skipping${end} ${cyn}$i${end}"
+#            ;;
+#        esac
+done
+echo "Manually..."
+array=( mda lv2-plugins thorium rustdesk syncthing )
 for i in "${array[@]}"
     do
 #        read -p "Search for ${cyn}$i${end} (j/n)? " answer
